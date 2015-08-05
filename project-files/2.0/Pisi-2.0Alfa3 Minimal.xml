@@ -392,6 +392,9 @@
         <SelectedPackage>mdadm-static</SelectedPackage>
         <SelectedPackage>memtest86</SelectedPackage>
         <SelectedPackage>module-virtualbox-guest</SelectedPackage>
+        <SelectedPackage>panda</SelectedPackage>
+        <SelectedPackage>pisilinux-desktop-services</SelectedPackage>
+        <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
         <SelectedPackage>python-sip</SelectedPackage>
         <SelectedPackage>xkeyboard-config</SelectedPackage>
         <SelectedPackage>xorg-input-acecad</SelectedPackage>
@@ -614,6 +617,7 @@
         <Package>openssl</Package>
         <Package>os-prober</Package>
         <Package>pam</Package>
+        <Package>panda</Package>
         <Package>parted</Package>
         <Package>pciutils</Package>
         <Package>pcmciautils</Package>
@@ -623,7 +627,9 @@
         <Package>perl-Locale-gettext</Package>
         <Package>piksemel</Package>
         <Package>pisi</Package>
+        <Package>pisilinux-desktop-services</Package>
         <Package>pisilinux-python</Package>
+        <Package>pisilinux-python-xorg</Package>
         <Package>pixman</Package>
         <Package>plyvel</Package>
         <Package>polkit</Package>
@@ -688,6 +694,7 @@
         <Package>yali-theme-pisilinux</Package>
         <Package>zip</Package>
         <Package>zlib</Package>
+        <Package>zorg</Package>
     </InstallImagePackages>
     <LanguageSelection default_language="tr_TR">
         <Language>tr_TR</Language>
