@@ -67,6 +67,7 @@
             <PackageSelection repo_uri="file:///home/ertugrul/repo4yali/pisi-index.xml">
                 <SelectedComponent>hardware.firmware</SelectedComponent>
                 <SelectedComponent>system.base</SelectedComponent>
+                <SelectedPackage>NetworkManager</SelectedPackage>
                 <SelectedPackage>alsa-tools</SelectedPackage>
                 <SelectedPackage>bash-completion</SelectedPackage>
                 <SelectedPackage>bashdb</SelectedPackage>
@@ -86,7 +87,6 @@
                 <SelectedPackage>glibc-locales-pt</SelectedPackage>
                 <SelectedPackage>glibc-locales-ru</SelectedPackage>
                 <SelectedPackage>glibc-locales-uk</SelectedPackage>
-                <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
                 <SelectedPackage>irqbalance</SelectedPackage>
                 <SelectedPackage>iso-codes</SelectedPackage>
                 <SelectedPackage>kernel</SelectedPackage>
@@ -99,11 +99,10 @@
                 <SelectedPackage>module-bbswitch</SelectedPackage>
                 <SelectedPackage>module-broadcom-wl</SelectedPackage>
                 <SelectedPackage>module-virtualbox-guest</SelectedPackage>
-                <SelectedPackage>xterm</SelectedPackage>
-                <SelectedPackage>NetworkManager</SelectedPackage>
                 <SelectedPackage>ntfsprogs</SelectedPackage>
                 <SelectedPackage>openssh</SelectedPackage>
                 <SelectedPackage>parted</SelectedPackage>
+                <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
                 <SelectedPackage>rsync</SelectedPackage>
                 <SelectedPackage>sudo</SelectedPackage>
@@ -111,15 +110,22 @@
                 <SelectedPackage>upower</SelectedPackage>
                 <SelectedPackage>vim</SelectedPackage>
                 <SelectedPackage>wget</SelectedPackage>
+                <SelectedPackage>xterm</SelectedPackage>
+                <Package>ConsoleKit</Package>
+                <Package>ModemManager</Package>
+                <Package>NetworkManager</Package>
                 <Package>acl</Package>
                 <Package>alsa-firmware</Package>
                 <Package>alsa-lib</Package>
+                <Package>alsa-tools</Package>
                 <Package>alternatives</Package>
                 <Package>attr</Package>
                 <Package>audit</Package>
                 <Package>autogen</Package>
                 <Package>baselayout</Package>
                 <Package>bash</Package>
+                <Package>bash-completion</Package>
+                <Package>bashdb</Package>
                 <Package>bc</Package>
                 <Package>biosdevname</Package>
                 <Package>bluez</Package>
@@ -127,11 +133,12 @@
                 <Package>busybox</Package>
                 <Package>bzip2</Package>
                 <Package>ca-certificates</Package>
+                <Package>cgmanager</Package>
                 <Package>comar</Package>
                 <Package>comar-api</Package>
-                <Package>ConsoleKit</Package>
                 <Package>coreutils</Package>
                 <Package>cpio</Package>
+                <Package>cpupowertools</Package>
                 <Package>cracklib</Package>
                 <Package>ctags</Package>
                 <Package>cups</Package>
@@ -143,10 +150,13 @@
                 <Package>dbus-python</Package>
                 <Package>device-mapper</Package>
                 <Package>device-mapper-event</Package>
+                <Package>device-mapper-static</Package>
                 <Package>dhcpcd</Package>
                 <Package>diffutils</Package>
                 <Package>disktype</Package>
+                <Package>dmidecode</Package>
                 <Package>dosfstools</Package>
+                <Package>droid-fonts</Package>
                 <Package>e2fsprogs</Package>
                 <Package>elfutils</Package>
                 <Package>eudev</Package>
@@ -166,6 +176,18 @@
                 <Package>glib2</Package>
                 <Package>glibc</Package>
                 <Package>glibc-32bit</Package>
+                <Package>glibc-locales-de</Package>
+                <Package>glibc-locales-en</Package>
+                <Package>glibc-locales-es</Package>
+                <Package>glibc-locales-fr</Package>
+                <Package>glibc-locales-hr</Package>
+                <Package>glibc-locales-hu</Package>
+                <Package>glibc-locales-it</Package>
+                <Package>glibc-locales-nl</Package>
+                <Package>glibc-locales-pl</Package>
+                <Package>glibc-locales-pt</Package>
+                <Package>glibc-locales-ru</Package>
+                <Package>glibc-locales-uk</Package>
                 <Package>gmp</Package>
                 <Package>gnutls</Package>
                 <Package>gobject-introspection</Package>
@@ -182,6 +204,8 @@
                 <Package>help2man</Package>
                 <Package>iproute2</Package>
                 <Package>iptables</Package>
+                <Package>irqbalance</Package>
+                <Package>iso-codes</Package>
                 <Package>json-c</Package>
                 <Package>kbd</Package>
                 <Package>kernel</Package>
@@ -189,14 +213,44 @@
                 <Package>kmod</Package>
                 <Package>less</Package>
                 <Package>leveldb</Package>
+                <Package>libFS</Package>
+                <Package>libICE</Package>
+                <Package>libSM</Package>
+                <Package>libX11</Package>
+                <Package>libXScrnSaver</Package>
+                <Package>libXau</Package>
+                <Package>libXaw</Package>
+                <Package>libXcomposite</Package>
+                <Package>libXcursor</Package>
+                <Package>libXdamage</Package>
+                <Package>libXdmcp</Package>
+                <Package>libXext</Package>
+                <Package>libXfixes</Package>
+                <Package>libXfont</Package>
+                <Package>libXft</Package>
+                <Package>libXi</Package>
+                <Package>libXinerama</Package>
+                <Package>libXmu</Package>
+                <Package>libXpm</Package>
+                <Package>libXrandr</Package>
+                <Package>libXrender</Package>
+                <Package>libXt</Package>
+                <Package>libXtst</Package>
+                <Package>libXv</Package>
+                <Package>libXxf86dga</Package>
+                <Package>libXxf86misc</Package>
+                <Package>libXxf86miscproto</Package>
+                <Package>libXxf86vm</Package>
                 <Package>libatasmart</Package>
                 <Package>libbsd</Package>
                 <Package>libcap</Package>
                 <Package>libcap-ng</Package>
+                <Package>libdmx</Package>
                 <Package>libedit</Package>
                 <Package>libee</Package>
                 <Package>libestr</Package>
                 <Package>libffi</Package>
+                <Package>libfontenc</Package>
                 <Package>libgcc</Package>
                 <Package>libgcrypt</Package>
                 <Package>libgomp</Package>
@@ -210,6 +264,7 @@
                 <Package>libmm-glib</Package>
                 <Package>libndp</Package>
                 <Package>libnfnetlink</Package>
+                <Package>libnih</Package>
                 <Package>libnl</Package>
                 <Package>libogg</Package>
                 <Package>libpaper</Package>
@@ -232,23 +287,22 @@
                 <Package>libuser</Package>
                 <Package>libutil-linux</Package>
                 <Package>libvorbis</Package>
-                <Package>libX11</Package>
                 <Package>libx86</Package>
-                <Package>libXau</Package>
                 <Package>libxcb</Package>
-                <Package>libXdmcp</Package>
-                <Package>libXft</Package>
+                <Package>libxkbfile</Package>
                 <Package>libxml2</Package>
-                <Package>libXrender</Package>
                 <Package>libyaml</Package>
                 <Package>linux-atm</Package>
                 <Package>linux-firmware</Package>
+                <Package>logrotate</Package>
                 <Package>lsb-release</Package>
                 <Package>lvm2</Package>
+                <Package>lvm2-static</Package>
                 <Package>lzo</Package>
                 <Package>mailcap</Package>
                 <Package>man-db</Package>
                 <Package>man-pages</Package>
+                <Package>mc</Package>
                 <Package>mdadm</Package>
                 <Package>mdadm-static</Package>
                 <Package>mingetty</Package>
@@ -256,14 +310,15 @@
                 <Package>mit-kerberos</Package>
                 <Package>mkinitramfs</Package>
                 <Package>mobile-broadband-provider-info</Package>
-                <Package>ModemManager</Package>
+                <Package>module-bbswitch</Package>
+                <Package>module-broadcom-wl</Package>
                 <Package>module-broadcom-wl-userspace</Package>
+                <Package>module-virtualbox-guest</Package>
                 <Package>module-virtualbox-guest-userspace</Package>
                 <Package>mpfr</Package>
                 <Package>mudur</Package>
                 <Package>ncompress</Package>
                 <Package>ncurses</Package>
-                <Package>net-snmp</Package>
                 <Package>net-tools</Package>
                 <Package>nettle</Package>
                 <Package>newt</Package>
@@ -274,6 +329,7 @@
                 <Package>ntfsprogs</Package>
                 <Package>numactl</Package>
                 <Package>openldap-client</Package>
+                <Package>openssh</Package>
                 <Package>openssl</Package>
                 <Package>os-prober</Package>
                 <Package>p11-kit</Package>
@@ -286,6 +342,7 @@
                 <Package>piksemel</Package>
                 <Package>pisi</Package>
                 <Package>pisilinux-python</Package>
+                <Package>pisilinux-python-xorg</Package>
                 <Package>plyvel</Package>
                 <Package>pm-utils</Package>
                 <Package>polkit</Package>
@@ -299,6 +356,7 @@
                 <Package>python-psutil</Package>
                 <Package>python-pyliblzma</Package>
                 <Package>readline</Package>
+                <Package>rsync</Package>
                 <Package>rsyslog</Package>
                 <Package>ruby</Package>
                 <Package>run-parts</Package>
@@ -309,6 +367,7 @@
                 <Package>snappy</Package>
                 <Package>spidermonkey</Package>
                 <Package>sqlite</Package>
+                <Package>sudo</Package>
                 <Package>sysfsutils</Package>
                 <Package>sysvinit</Package>
                 <Package>sysvinit-tools</Package>
@@ -319,17 +378,25 @@
                 <Package>texinfo</Package>
                 <Package>time</Package>
                 <Package>timezone</Package>
+                <Package>udisks2</Package>
                 <Package>unzip</Package>
+                <Package>upower</Package>
                 <Package>urlgrabber</Package>
                 <Package>usbmuxd</Package>
                 <Package>usbutils</Package>
+                <Package>utempter</Package>
                 <Package>util-linux</Package>
                 <Package>v86d</Package>
                 <Package>vbetool</Package>
+                <Package>vim</Package>
                 <Package>vixie-cron</Package>
+                <Package>wget</Package>
                 <Package>which</Package>
                 <Package>wireless-tools</Package>
                 <Package>wpa_supplicant</Package>
+                <Package>xcb-util</Package>
+                <Package>xorg-app</Package>
+                <Package>xterm</Package>
                 <Package>xz</Package>
                 <Package>zip</Package>
                 <Package>zlib</Package>
@@ -365,13 +432,13 @@
         <Package>attr</Package>
         <Package>baselayout</Package>
         <Package>bash</Package>
-        <Package>bash-completion</Package>
         <Package>bc</Package>
         <Package>biosdevname</Package>
         <Package>busybox</Package>
         <Package>bzip2</Package>
         <Package>ca-certificates</Package>
         <Package>cairo</Package>
+        <Package>cgmanager</Package>
         <Package>comar</Package>
         <Package>comar-api</Package>
         <Package>coreutils</Package>
@@ -384,7 +451,6 @@
         <Package>dbus-python</Package>
         <Package>device-mapper</Package>
         <Package>device-mapper-event</Package>
-        <Package>device-mapper-static</Package>
         <Package>dhcpcd</Package>
         <Package>diffutils</Package>
         <Package>disktype</Package>
@@ -402,7 +468,6 @@
         <Package>gawk</Package>
         <Package>gdbm</Package>
         <Package>gettext</Package>
-        <Package>gfxtheme-pisilinux-install</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
         <Package>glibc-32bit</Package>
@@ -426,7 +491,6 @@
         <Package>groff</Package>
         <Package>grub2</Package>
         <Package>gzip</Package>
-        <Package>harfbuzz</Package>
         <Package>help2man</Package>
         <Package>icu4c</Package>
         <Package>jbigkit</Package>
@@ -491,6 +555,7 @@
         <Package>liblogging</Package>
         <Package>libmng</Package>
         <Package>libmtdev</Package>
+        <Package>libnih</Package>
         <Package>libpciaccess</Package>
         <Package>libpcre</Package>
         <Package>libpipeline</Package>
@@ -504,8 +569,10 @@
         <Package>libusb-compat</Package>
         <Package>libuser</Package>
         <Package>libutil-linux</Package>
+        <Package>libva</Package>
+        <Package>libva-intel-driver</Package>
+        <Package>libvdpau</Package>
         <Package>libxcb</Package>
-        <Package>libxkbcommon</Package>
         <Package>libxkbfile</Package>
         <Package>libxml2</Package>
         <Package>libxshmfence</Package>
@@ -515,19 +582,16 @@
         <Package>llvm-libs</Package>
         <Package>lsb-release</Package>
         <Package>lvm2</Package>
-        <Package>lvm2-static</Package>
         <Package>lzo</Package>
         <Package>mailcap</Package>
         <Package>man-db</Package>
         <Package>man-pages</Package>
         <Package>mdadm</Package>
         <Package>mdadm-static</Package>
-        <Package>memtest86</Package>
         <Package>mesa</Package>
         <Package>mingetty</Package>
         <Package>miscfiles</Package>
         <Package>mkinitramfs</Package>
-        <Package>module-virtualbox-guest</Package>
         <Package>module-virtualbox-guest-userspace</Package>
         <Package>mpfr</Package>
         <Package>mtools</Package>
@@ -574,7 +638,6 @@
         <Package>python-pyliblzma</Package>
         <Package>python-qt</Package>
         <Package>python-qt-common</Package>
-        <Package>python-sip</Package>
         <Package>python-udev</Package>
         <Package>qt</Package>
         <Package>qtermwidget</Package>
@@ -603,6 +666,7 @@
         <Package>usbutils</Package>
         <Package>util-linux</Package>
         <Package>v86d</Package>
+        <Package>vdpau-video</Package>
         <Package>vixie-cron</Package>
         <Package>wayland</Package>
         <Package>wayland-client</Package>
@@ -613,7 +677,6 @@
         <Package>xdm</Package>
         <Package>xfsprogs</Package>
         <Package>xinit</Package>
-        <Package>xkeyboard-config</Package>
         <Package>xorg-app</Package>
         <Package>xorg-input-acecad</Package>
         <Package>xorg-input-aiptek</Package>
@@ -627,7 +690,6 @@
         <Package>xorg-input-void</Package>
         <Package>xorg-input-wacom</Package>
         <Package>xorg-server</Package>
-        <Package>xorg-server-common</Package>
         <Package>xorg-video-apm</Package>
         <Package>xorg-video-cirrus</Package>
         <Package>xorg-video-dummy</Package>
@@ -635,7 +697,6 @@
         <Package>xorg-video-geode</Package>
         <Package>xorg-video-glint</Package>
         <Package>xorg-video-i128</Package>
-        <Package>xorg-video-intel</Package>
         <Package>xorg-video-mach64</Package>
         <Package>xorg-video-mga</Package>
         <Package>xorg-video-neomagic</Package>
@@ -656,6 +717,7 @@
         <Package>xorg-video-vesa</Package>
         <Package>xorg-video-vmware</Package>
         <Package>xorg-video-voodoo</Package>
+        <Package>xvba-video</Package>
         <Package>xz</Package>
         <Package>yali</Package>
         <Package>yali-branding-pisilinux</Package>
