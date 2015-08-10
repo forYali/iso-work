@@ -4,7 +4,7 @@
     <ReleaseFiles>/home/ertugrul/Works/iso-work/release-files/pisilinux/media-content</ReleaseFiles>
     <PackageCollections>
         <PackageCollection default="True">
-            <Id>nQfkBTyH5JN2DZ</Id>
+            <Id>ZXd9VSWx</Id>
             <Icon>minimal-collection-icon.png</Icon>
             <Translations>
                 <Translation language="ru_RU">
@@ -155,6 +155,7 @@
                 <SelectedPackage>xinit</SelectedPackage>
                 <SelectedPackage>xkeyboard-config</SelectedPackage>
                 <SelectedPackage>xorg-app</SelectedPackage>
+                <SelectedPackage>xterm</SelectedPackage>
                 <Package>ConsoleKit</Package>
                 <Package>DirectFB</Package>
                 <Package>ModemManager</Package>
@@ -195,6 +196,7 @@
                 <Package>ca-certificates</Package>
                 <Package>cairo</Package>
                 <Package>celt</Package>
+                <Package>cgmanager</Package>
                 <Package>cln</Package>
                 <Package>comar</Package>
                 <Package>comar-api</Package>
@@ -478,6 +480,7 @@
                 <Package>libmtp</Package>
                 <Package>libndp</Package>
                 <Package>libnfnetlink</Package>
+                <Package>libnih</Package>
                 <Package>libnl</Package>
                 <Package>libnotify</Package>
                 <Package>libnut</Package>
@@ -796,6 +799,7 @@
                 <Package>xorg-video-vesa</Package>
                 <Package>xorg-video-vmware</Package>
                 <Package>xorg-video-voodoo</Package>
+                <Package>xterm</Package>
                 <Package>xvba-video</Package>
                 <Package>xvid</Package>
                 <Package>xz</Package>
@@ -809,6 +813,7 @@
         <SelectedComponent>hardware.firmware</SelectedComponent>
         <SelectedComponent>system.base</SelectedComponent>
         <SelectedComponent>system.installer</SelectedComponent>
+        <SelectedComponent>x11.driver</SelectedComponent>
         <SelectedPackage>bash-completion</SelectedPackage>
         <SelectedPackage>device-mapper-static</SelectedPackage>
         <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
@@ -824,47 +829,7 @@
         <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
         <SelectedPackage>python-sip</SelectedPackage>
         <SelectedPackage>xkeyboard-config</SelectedPackage>
-        <SelectedPackage>xorg-input-acecad</SelectedPackage>
-        <SelectedPackage>xorg-input-aiptek</SelectedPackage>
-        <SelectedPackage>xorg-input-elographics</SelectedPackage>
-        <SelectedPackage>xorg-input-evdev</SelectedPackage>
-        <SelectedPackage>xorg-input-joystick</SelectedPackage>
-        <SelectedPackage>xorg-input-kbd</SelectedPackage>
-        <SelectedPackage>xorg-input-mouse</SelectedPackage>
-        <SelectedPackage>xorg-input-synaptics</SelectedPackage>
-        <SelectedPackage>xorg-input-vmmouse</SelectedPackage>
-        <SelectedPackage>xorg-input-void</SelectedPackage>
-        <SelectedPackage>xorg-input-wacom</SelectedPackage>
-        <SelectedPackage>xorg-server</SelectedPackage>
         <SelectedPackage>xorg-server-common</SelectedPackage>
-        <SelectedPackage>xorg-video-apm</SelectedPackage>
-        <SelectedPackage>xorg-video-cirrus</SelectedPackage>
-        <SelectedPackage>xorg-video-dummy</SelectedPackage>
-        <SelectedPackage>xorg-video-fbdev</SelectedPackage>
-        <SelectedPackage>xorg-video-geode</SelectedPackage>
-        <SelectedPackage>xorg-video-glint</SelectedPackage>
-        <SelectedPackage>xorg-video-i128</SelectedPackage>
-        <SelectedPackage>xorg-video-intel</SelectedPackage>
-        <SelectedPackage>xorg-video-mach64</SelectedPackage>
-        <SelectedPackage>xorg-video-mga</SelectedPackage>
-        <SelectedPackage>xorg-video-neomagic</SelectedPackage>
-        <SelectedPackage>xorg-video-nouveau</SelectedPackage>
-        <SelectedPackage>xorg-video-openchrome</SelectedPackage>
-        <SelectedPackage>xorg-video-r128</SelectedPackage>
-        <SelectedPackage>xorg-video-radeon</SelectedPackage>
-        <SelectedPackage>xorg-video-rendition</SelectedPackage>
-        <SelectedPackage>xorg-video-s3virge</SelectedPackage>
-        <SelectedPackage>xorg-video-savage</SelectedPackage>
-        <SelectedPackage>xorg-video-siliconmotion</SelectedPackage>
-        <SelectedPackage>xorg-video-sis</SelectedPackage>
-        <SelectedPackage>xorg-video-sisusb</SelectedPackage>
-        <SelectedPackage>xorg-video-tdfx</SelectedPackage>
-        <SelectedPackage>xorg-video-tga</SelectedPackage>
-        <SelectedPackage>xorg-video-trident</SelectedPackage>
-        <SelectedPackage>xorg-video-v4l</SelectedPackage>
-        <SelectedPackage>xorg-video-vesa</SelectedPackage>
-        <SelectedPackage>xorg-video-vmware</SelectedPackage>
-        <SelectedPackage>xorg-video-voodoo</SelectedPackage>
         <SelectedPackage>zorg</SelectedPackage>
         <Package>ConsoleKit</Package>
         <Package>acl</Package>
@@ -874,13 +839,13 @@
         <Package>attr</Package>
         <Package>baselayout</Package>
         <Package>bash</Package>
-        <Package>bash-completion</Package>
         <Package>bc</Package>
         <Package>biosdevname</Package>
         <Package>busybox</Package>
         <Package>bzip2</Package>
         <Package>ca-certificates</Package>
         <Package>cairo</Package>
+        <Package>cgmanager</Package>
         <Package>comar</Package>
         <Package>comar-api</Package>
         <Package>coreutils</Package>
@@ -893,7 +858,6 @@
         <Package>dbus-python</Package>
         <Package>device-mapper</Package>
         <Package>device-mapper-event</Package>
-        <Package>device-mapper-static</Package>
         <Package>dhcpcd</Package>
         <Package>diffutils</Package>
         <Package>disktype</Package>
@@ -911,7 +875,6 @@
         <Package>gawk</Package>
         <Package>gdbm</Package>
         <Package>gettext</Package>
-        <Package>gfxtheme-pisilinux-install</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
         <Package>glibc-32bit</Package>
@@ -935,7 +898,6 @@
         <Package>groff</Package>
         <Package>grub2</Package>
         <Package>gzip</Package>
-        <Package>harfbuzz</Package>
         <Package>help2man</Package>
         <Package>icu4c</Package>
         <Package>jbigkit</Package>
@@ -1000,6 +962,7 @@
         <Package>liblogging</Package>
         <Package>libmng</Package>
         <Package>libmtdev</Package>
+        <Package>libnih</Package>
         <Package>libpciaccess</Package>
         <Package>libpcre</Package>
         <Package>libpipeline</Package>
@@ -1013,8 +976,10 @@
         <Package>libusb-compat</Package>
         <Package>libuser</Package>
         <Package>libutil-linux</Package>
+        <Package>libva</Package>
+        <Package>libva-intel-driver</Package>
+        <Package>libvdpau</Package>
         <Package>libxcb</Package>
-        <Package>libxkbcommon</Package>
         <Package>libxkbfile</Package>
         <Package>libxml2</Package>
         <Package>libxshmfence</Package>
@@ -1024,19 +989,16 @@
         <Package>llvm-libs</Package>
         <Package>lsb-release</Package>
         <Package>lvm2</Package>
-        <Package>lvm2-static</Package>
         <Package>lzo</Package>
         <Package>mailcap</Package>
         <Package>man-db</Package>
         <Package>man-pages</Package>
         <Package>mdadm</Package>
         <Package>mdadm-static</Package>
-        <Package>memtest86</Package>
         <Package>mesa</Package>
         <Package>mingetty</Package>
         <Package>miscfiles</Package>
         <Package>mkinitramfs</Package>
-        <Package>module-virtualbox-guest</Package>
         <Package>module-virtualbox-guest-userspace</Package>
         <Package>mpfr</Package>
         <Package>mtools</Package>
@@ -1083,7 +1045,6 @@
         <Package>python-pyliblzma</Package>
         <Package>python-qt</Package>
         <Package>python-qt-common</Package>
-        <Package>python-sip</Package>
         <Package>python-udev</Package>
         <Package>qt</Package>
         <Package>qtermwidget</Package>
@@ -1112,6 +1073,7 @@
         <Package>usbutils</Package>
         <Package>util-linux</Package>
         <Package>v86d</Package>
+        <Package>vdpau-video</Package>
         <Package>vixie-cron</Package>
         <Package>wayland</Package>
         <Package>wayland-client</Package>
@@ -1122,7 +1084,6 @@
         <Package>xdm</Package>
         <Package>xfsprogs</Package>
         <Package>xinit</Package>
-        <Package>xkeyboard-config</Package>
         <Package>xorg-app</Package>
         <Package>xorg-input-acecad</Package>
         <Package>xorg-input-aiptek</Package>
@@ -1136,7 +1097,6 @@
         <Package>xorg-input-void</Package>
         <Package>xorg-input-wacom</Package>
         <Package>xorg-server</Package>
-        <Package>xorg-server-common</Package>
         <Package>xorg-video-apm</Package>
         <Package>xorg-video-cirrus</Package>
         <Package>xorg-video-dummy</Package>
@@ -1144,7 +1104,6 @@
         <Package>xorg-video-geode</Package>
         <Package>xorg-video-glint</Package>
         <Package>xorg-video-i128</Package>
-        <Package>xorg-video-intel</Package>
         <Package>xorg-video-mach64</Package>
         <Package>xorg-video-mga</Package>
         <Package>xorg-video-neomagic</Package>
@@ -1165,6 +1124,7 @@
         <Package>xorg-video-vesa</Package>
         <Package>xorg-video-vmware</Package>
         <Package>xorg-video-voodoo</Package>
+        <Package>xvba-video</Package>
         <Package>xz</Package>
         <Package>yali</Package>
         <Package>yali-branding-pisilinux</Package>
