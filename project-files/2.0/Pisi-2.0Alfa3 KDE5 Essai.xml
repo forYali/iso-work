@@ -106,14 +106,16 @@
                 <SelectedPackage>iputils</SelectedPackage>
                 <SelectedPackage>isl</SelectedPackage>
                 <SelectedPackage>iso-codes</SelectedPackage>
+                <SelectedPackage>json-glib</SelectedPackage>
                 <SelectedPackage>kernel</SelectedPackage>
                 <SelectedPackage>kernel-headers</SelectedPackage>
-                <SelectedPackage>kernel-headers</SelectedPackage>
                 <SelectedPackage>libdc1394</SelectedPackage>
+                <SelectedPackage>liberation-fonts</SelectedPackage>
                 <SelectedPackage>libevent</SelectedPackage>
                 <SelectedPackage>libexif</SelectedPackage>
                 <SelectedPackage>libraw1394</SelectedPackage>
                 <SelectedPackage>linux-firmware</SelectedPackage>
+                <SelectedPackage>llvm</SelectedPackage>
                 <SelectedPackage>logrotate</SelectedPackage>
                 <SelectedPackage>lvm2-static</SelectedPackage>
                 <SelectedPackage>mc</SelectedPackage>
@@ -122,7 +124,6 @@
                 <SelectedPackage>module-bbswitch</SelectedPackage>
                 <SelectedPackage>module-broadcom-wl</SelectedPackage>
                 <SelectedPackage>module-virtualbox</SelectedPackage>
-                <SelectedPackage>module-virtualbox-guest</SelectedPackage>
                 <SelectedPackage>module-virtualbox-guest</SelectedPackage>
                 <SelectedPackage>module-virtualbox-guest-userspace</SelectedPackage>
                 <SelectedPackage>module-virtualbox-userspace</SelectedPackage>
@@ -136,25 +137,23 @@
                 <SelectedPackage>pm-utils</SelectedPackage>
                 <SelectedPackage>poppler-glib</SelectedPackage>
                 <SelectedPackage>pulseaudio</SelectedPackage>
-                <SelectedPackage>pulseaudio</SelectedPackage>
                 <SelectedPackage>qt5-quick1</SelectedPackage>
                 <SelectedPackage>qt5-quickcontrols</SelectedPackage>
-                <SelectedPackage>qt5-quickcontrols</SelectedPackage>
                 <SelectedPackage>rsync</SelectedPackage>
-                <SelectedPackage>startup-notification</SelectedPackage>
                 <SelectedPackage>startup-notification</SelectedPackage>
                 <SelectedPackage>sudo</SelectedPackage>
                 <SelectedPackage>suspend</SelectedPackage>
                 <SelectedPackage>udisks2</SelectedPackage>
+                <SelectedPackage>unicode-ucd</SelectedPackage>
                 <SelectedPackage>upower</SelectedPackage>
                 <SelectedPackage>uuidd</SelectedPackage>
-                <SelectedPackage>vim</SelectedPackage>
                 <SelectedPackage>vim</SelectedPackage>
                 <SelectedPackage>wget</SelectedPackage>
                 <SelectedPackage>xbitmaps</SelectedPackage>
                 <SelectedPackage>xinit</SelectedPackage>
                 <SelectedPackage>xkeyboard-config</SelectedPackage>
                 <SelectedPackage>xorg-app</SelectedPackage>
+                <SelectedPackage>xorg-util</SelectedPackage>
                 <SelectedPackage>xterm</SelectedPackage>
                 <Package>ConsoleKit</Package>
                 <Package>DirectFB</Package>
@@ -314,6 +313,7 @@
                 <Package>jasper</Package>
                 <Package>jbigkit</Package>
                 <Package>json-c</Package>
+                <Package>json-glib</Package>
                 <Package>kactivities</Package>
                 <Package>kapidox</Package>
                 <Package>karchive</Package>
@@ -452,6 +452,7 @@
                 <Package>libedit</Package>
                 <Package>libee</Package>
                 <Package>libepoxy</Package>
+                <Package>liberation-fonts</Package>
                 <Package>libestr</Package>
                 <Package>libevdev</Package>
                 <Package>libevent</Package>
@@ -537,6 +538,7 @@
                 <Package>libzip</Package>
                 <Package>linux-atm</Package>
                 <Package>linux-firmware</Package>
+                <Package>llvm</Package>
                 <Package>llvm-clang</Package>
                 <Package>llvm-libs</Package>
                 <Package>lm_sensors</Package>
@@ -718,6 +720,7 @@
                 <Package>time</Package>
                 <Package>timezone</Package>
                 <Package>udisks2</Package>
+                <Package>unicode-ucd</Package>
                 <Package>unzip</Package>
                 <Package>upower</Package>
                 <Package>urlgrabber</Package>
@@ -772,6 +775,7 @@
                 <Package>xorg-server-xnest</Package>
                 <Package>xorg-server-xvfb</Package>
                 <Package>xorg-server-xwayland</Package>
+                <Package>xorg-util</Package>
                 <Package>xorg-video-apm</Package>
                 <Package>xorg-video-cirrus</Package>
                 <Package>xorg-video-dummy</Package>
@@ -839,6 +843,7 @@
         <Package>attr</Package>
         <Package>baselayout</Package>
         <Package>bash</Package>
+        <Package>bash-completion</Package>
         <Package>bc</Package>
         <Package>biosdevname</Package>
         <Package>busybox</Package>
@@ -858,6 +863,7 @@
         <Package>dbus-python</Package>
         <Package>device-mapper</Package>
         <Package>device-mapper-event</Package>
+        <Package>device-mapper-static</Package>
         <Package>dhcpcd</Package>
         <Package>diffutils</Package>
         <Package>disktype</Package>
@@ -875,6 +881,7 @@
         <Package>gawk</Package>
         <Package>gdbm</Package>
         <Package>gettext</Package>
+        <Package>gfxtheme-pisilinux-install</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
         <Package>glibc-32bit</Package>
@@ -898,6 +905,7 @@
         <Package>groff</Package>
         <Package>grub2</Package>
         <Package>gzip</Package>
+        <Package>harfbuzz</Package>
         <Package>help2man</Package>
         <Package>icu4c</Package>
         <Package>jbigkit</Package>
@@ -980,6 +988,7 @@
         <Package>libva-intel-driver</Package>
         <Package>libvdpau</Package>
         <Package>libxcb</Package>
+        <Package>libxkbcommon</Package>
         <Package>libxkbfile</Package>
         <Package>libxml2</Package>
         <Package>libxshmfence</Package>
@@ -989,16 +998,19 @@
         <Package>llvm-libs</Package>
         <Package>lsb-release</Package>
         <Package>lvm2</Package>
+        <Package>lvm2-static</Package>
         <Package>lzo</Package>
         <Package>mailcap</Package>
         <Package>man-db</Package>
         <Package>man-pages</Package>
         <Package>mdadm</Package>
         <Package>mdadm-static</Package>
+        <Package>memtest86</Package>
         <Package>mesa</Package>
         <Package>mingetty</Package>
         <Package>miscfiles</Package>
         <Package>mkinitramfs</Package>
+        <Package>module-virtualbox-guest</Package>
         <Package>module-virtualbox-guest-userspace</Package>
         <Package>mpfr</Package>
         <Package>mtools</Package>
@@ -1045,6 +1057,7 @@
         <Package>python-pyliblzma</Package>
         <Package>python-qt</Package>
         <Package>python-qt-common</Package>
+        <Package>python-sip</Package>
         <Package>python-udev</Package>
         <Package>qt</Package>
         <Package>qtermwidget</Package>
@@ -1084,6 +1097,7 @@
         <Package>xdm</Package>
         <Package>xfsprogs</Package>
         <Package>xinit</Package>
+        <Package>xkeyboard-config</Package>
         <Package>xorg-app</Package>
         <Package>xorg-input-acecad</Package>
         <Package>xorg-input-aiptek</Package>
@@ -1097,6 +1111,7 @@
         <Package>xorg-input-void</Package>
         <Package>xorg-input-wacom</Package>
         <Package>xorg-server</Package>
+        <Package>xorg-server-common</Package>
         <Package>xorg-video-apm</Package>
         <Package>xorg-video-cirrus</Package>
         <Package>xorg-video-dummy</Package>
