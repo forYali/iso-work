@@ -67,6 +67,7 @@
             <PackageSelection repo_uri="file:///home/ertugrul/repo4yali/pisi-index.xml">
                 <SelectedComponent>hardware.firmware</SelectedComponent>
                 <SelectedComponent>system.base</SelectedComponent>
+                <SelectedPackage>NetworkManager</SelectedPackage>
                 <SelectedPackage>alsa-tools</SelectedPackage>
                 <SelectedPackage>bash-completion</SelectedPackage>
                 <SelectedPackage>bashdb</SelectedPackage>
@@ -97,7 +98,6 @@
                 <SelectedPackage>module-broadcom-wl</SelectedPackage>
                 <SelectedPackage>module-virtualbox</SelectedPackage>
                 <SelectedPackage>module-virtualbox-guest</SelectedPackage>
-                <SelectedPackage>NetworkManager</SelectedPackage>
                 <SelectedPackage>ntfsprogs</SelectedPackage>
                 <SelectedPackage>openssh</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
@@ -114,6 +114,8 @@
                 <Package>attr</Package>
                 <Package>audit</Package>
                 <Package>autogen</Package>
+                <Package>b43-firmware</Package>
+                <Package>b43-fwcutter</Package>
                 <Package>baselayout</Package>
                 <Package>bash</Package>
                 <Package>bash-completion</Package>
@@ -367,6 +369,8 @@
         <Package>alsa-lib</Package>
         <Package>alternatives</Package>
         <Package>attr</Package>
+        <Package>b43-firmware</Package>
+        <Package>b43-fwcutter</Package>
         <Package>baselayout</Package>
         <Package>bash</Package>
         <Package>bash-completion</Package>
