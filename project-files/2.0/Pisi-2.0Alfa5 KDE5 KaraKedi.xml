@@ -68,6 +68,7 @@
                 <SelectedComponent>desktop.kde.framework</SelectedComponent>
                 <SelectedComponent>desktop.kde.plasma</SelectedComponent>
                 <SelectedComponent>desktop.kde.porting-aids</SelectedComponent>
+                <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
                 <SelectedComponent>hardware.firmware</SelectedComponent>
                 <SelectedComponent>multimedia.video</SelectedComponent>
                 <SelectedComponent>system.base</SelectedComponent>
@@ -78,6 +79,7 @@
                 <SelectedPackage>alsa-tools</SelectedPackage>
                 <SelectedPackage>alsa-utils</SelectedPackage>
                 <SelectedPackage>ark</SelectedPackage>
+                <SelectedPackage>artwork-pisilinux-release</SelectedPackage>
                 <SelectedPackage>baloo-widgets</SelectedPackage>
                 <SelectedPackage>bash-completion</SelectedPackage>
                 <SelectedPackage>bashdb</SelectedPackage>
@@ -90,6 +92,7 @@
                 <SelectedPackage>dolphin</SelectedPackage>
                 <SelectedPackage>dragonplayer</SelectedPackage>
                 <SelectedPackage>droid-fonts</SelectedPackage>
+                <SelectedPackage>example-content</SelectedPackage>
                 <SelectedPackage>firefox</SelectedPackage>
                 <SelectedPackage>firefox-lang-de</SelectedPackage>
                 <SelectedPackage>firefox-lang-en-GB</SelectedPackage>
@@ -130,10 +133,10 @@
                 <SelectedPackage>glibc-locales-pt</SelectedPackage>
                 <SelectedPackage>glibc-locales-ru</SelectedPackage>
                 <SelectedPackage>glibc-locales-uk</SelectedPackage>
+                <SelectedPackage>gpgme</SelectedPackage>
                 <SelectedPackage>gwenview</SelectedPackage>
                 <SelectedPackage>iputils</SelectedPackage>
                 <SelectedPackage>irqbalance</SelectedPackage>
-                <SelectedPackage>isl</SelectedPackage>
                 <SelectedPackage>iso-codes</SelectedPackage>
                 <SelectedPackage>json-glib</SelectedPackage>
                 <SelectedPackage>kate</SelectedPackage>
@@ -149,7 +152,9 @@
                 <SelectedPackage>libraw1394</SelectedPackage>
                 <SelectedPackage>libreoffice-calc</SelectedPackage>
                 <SelectedPackage>libreoffice-common</SelectedPackage>
+                <SelectedPackage>libreoffice-de</SelectedPackage>
                 <SelectedPackage>libreoffice-draw</SelectedPackage>
+                <SelectedPackage>libreoffice-en-US</SelectedPackage>
                 <SelectedPackage>libreoffice-hu</SelectedPackage>
                 <SelectedPackage>libreoffice-impress</SelectedPackage>
                 <SelectedPackage>libreoffice-it</SelectedPackage>
@@ -157,8 +162,6 @@
                 <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
                 <SelectedPackage>libreoffice-ru</SelectedPackage>
                 <SelectedPackage>libreoffice-tr</SelectedPackage>
-                <SelectedPackage>libreoffice-tr</SelectedPackage>
-                <SelectedPackage>libreoffice-writer</SelectedPackage>
                 <SelectedPackage>libreoffice-writer</SelectedPackage>
                 <SelectedPackage>linux-firmware</SelectedPackage>
                 <SelectedPackage>llvm</SelectedPackage>
@@ -183,10 +186,7 @@
                 <SelectedPackage>pm-utils</SelectedPackage>
                 <SelectedPackage>poppler-glib</SelectedPackage>
                 <SelectedPackage>pulseaudio</SelectedPackage>
-                <SelectedPackage>qt5-qdbusviewer</SelectedPackage>
-                <SelectedPackage>qt5-quick1</SelectedPackage>
-                <SelectedPackage>qt5-quickcontrols</SelectedPackage>
-                <SelectedPackage>rsync</SelectedPackage>
+                <SelectedPackage>qt5-phonon-backend-gstreamer</SelectedPackage>
                 <SelectedPackage>startup-notification</SelectedPackage>
                 <SelectedPackage>sudo</SelectedPackage>
                 <SelectedPackage>suspend</SelectedPackage>
@@ -196,6 +196,7 @@
                 <SelectedPackage>uuidd</SelectedPackage>
                 <SelectedPackage>wget</SelectedPackage>
                 <SelectedPackage>xbitmaps</SelectedPackage>
+                <SelectedPackage>xdg-user-dirs</SelectedPackage>
                 <SelectedPackage>xinit</SelectedPackage>
                 <SelectedPackage>xkeyboard-config</SelectedPackage>
                 <SelectedPackage>xorg-app</SelectedPackage>
@@ -215,6 +216,7 @@
                 <Package>alsa-utils</Package>
                 <Package>alternatives</Package>
                 <Package>ark</Package>
+                <Package>artwork-pisilinux-release</Package>
                 <Package>aspell</Package>
                 <Package>at-spi2-atk</Package>
                 <Package>at-spi2-core</Package>
@@ -295,6 +297,7 @@
                 <Package>elfutils</Package>
                 <Package>enchant</Package>
                 <Package>eudev</Package>
+                <Package>example-content</Package>
                 <Package>exiv2-libs</Package>
                 <Package>expat</Package>
                 <Package>extra-cmake-modules</Package>
@@ -371,10 +374,12 @@
                 <Package>glibmm</Package>
                 <Package>gmp</Package>
                 <Package>gnu-gs-fonts-std</Package>
+                <Package>gnupg</Package>
                 <Package>gnutls</Package>
                 <Package>gobject-introspection</Package>
                 <Package>gperf</Package>
                 <Package>gperftools</Package>
+                <Package>gpgme</Package>
                 <Package>gpm</Package>
                 <Package>graphite2</Package>
                 <Package>grep</Package>
@@ -415,7 +420,6 @@
                 <Package>iptables</Package>
                 <Package>iputils</Package>
                 <Package>irqbalance</Package>
-                <Package>isl</Package>
                 <Package>iso-codes</Package>
                 <Package>jack-audio-connection-kit</Package>
                 <Package>jasper</Package>
@@ -499,6 +503,7 @@
                 <Package>kwallet</Package>
                 <Package>kwallet-pam</Package>
                 <Package>kwayland</Package>
+                <Package>kwayland-integration</Package>
                 <Package>kwidgetsaddons</Package>
                 <Package>kwin</Package>
                 <Package>kwindowsystem</Package>
@@ -545,6 +550,7 @@
                 <Package>libarchive</Package>
                 <Package>libart_lgpl</Package>
                 <Package>libass</Package>
+                <Package>libassuan</Package>
                 <Package>libasyncns</Package>
                 <Package>libatasmart</Package>
                 <Package>libavc1394</Package>
@@ -607,6 +613,7 @@
                 <Package>libkipi</Package>
                 <Package>libkmod</Package>
                 <Package>libkms</Package>
+                <Package>libksba</Package>
                 <Package>libkscreen</Package>
                 <Package>libksysguard</Package>
                 <Package>liblogging</Package>
@@ -646,7 +653,9 @@
                 <Package>libraw1394</Package>
                 <Package>libreoffice-calc</Package>
                 <Package>libreoffice-common</Package>
+                <Package>libreoffice-de</Package>
                 <Package>libreoffice-draw</Package>
+                <Package>libreoffice-en-US</Package>
                 <Package>libreoffice-hu</Package>
                 <Package>libreoffice-impress</Package>
                 <Package>libreoffice-it</Package>
@@ -720,6 +729,7 @@
                 <Package>mailcap</Package>
                 <Package>man-db</Package>
                 <Package>man-pages</Package>
+                <Package>mariadb-lib</Package>
                 <Package>mc</Package>
                 <Package>mdadm</Package>
                 <Package>mdadm-static</Package>
@@ -738,6 +748,7 @@
                 <Package>module-bbswitch</Package>
                 <Package>module-broadcom-wl</Package>
                 <Package>module-broadcom-wl-userspace</Package>
+                <Package>module-nvidia-current</Package>
                 <Package>module-virtualbox</Package>
                 <Package>module-virtualbox-guest</Package>
                 <Package>module-virtualbox-guest-userspace</Package>
@@ -753,12 +764,14 @@
                 <Package>network-manager-applet</Package>
                 <Package>networkmanager-qt</Package>
                 <Package>newt</Package>
+                <Package>npth</Package>
                 <Package>nspr</Package>
                 <Package>nss</Package>
                 <Package>nss-mdns</Package>
                 <Package>ntfs-3g</Package>
                 <Package>ntfsprogs</Package>
                 <Package>numactl</Package>
+                <Package>openal</Package>
                 <Package>openconnect</Package>
                 <Package>opencore-amr</Package>
                 <Package>openexr-libs</Package>
@@ -780,6 +793,7 @@
                 <Package>perl</Package>
                 <Package>perl-Locale-gettext</Package>
                 <Package>piksemel</Package>
+                <Package>pinentry</Package>
                 <Package>pisi</Package>
                 <Package>pisilinux-python</Package>
                 <Package>pisilinux-python-xorg</Package>
@@ -803,6 +817,7 @@
                 <Package>poppler-glib</Package>
                 <Package>poppler-qt5</Package>
                 <Package>popt</Package>
+                <Package>postgresql-lib</Package>
                 <Package>powerdevil</Package>
                 <Package>ppp</Package>
                 <Package>prison-qt5</Package>
@@ -818,23 +833,40 @@
                 <Package>python-setuptools</Package>
                 <Package>python3</Package>
                 <Package>qrencode</Package>
+                <Package>qt5-accountsservice</Package>
+                <Package>qt5-assistant</Package>
                 <Package>qt5-base</Package>
+                <Package>qt5-configuration</Package>
+                <Package>qt5-connectivity</Package>
                 <Package>qt5-declarative</Package>
                 <Package>qt5-designer</Package>
+                <Package>qt5-enginio</Package>
+                <Package>qt5-graphicaleffects</Package>
+                <Package>qt5-imageformats</Package>
+                <Package>qt5-linguist</Package>
+                <Package>qt5-location</Package>
+                <Package>qt5-multimedia</Package>
                 <Package>qt5-phonon</Package>
+                <Package>qt5-phonon-backend-gstreamer</Package>
                 <Package>qt5-qdbusviewer</Package>
                 <Package>qt5-quick1</Package>
                 <Package>qt5-quickcontrols</Package>
                 <Package>qt5-script</Package>
                 <Package>qt5-sensors</Package>
+                <Package>qt5-serialport</Package>
+                <Package>qt5-sql-mysql</Package>
+                <Package>qt5-sql-odbc</Package>
+                <Package>qt5-sql-postgresql</Package>
                 <Package>qt5-sql-sqlite</Package>
                 <Package>qt5-svg</Package>
+                <Package>qt5-translations</Package>
+                <Package>qt5-webchannel</Package>
                 <Package>qt5-webkit</Package>
+                <Package>qt5-websockets</Package>
                 <Package>qt5-x11extras</Package>
                 <Package>qt5-xmlpatterns</Package>
                 <Package>readline</Package>
                 <Package>rrdtool</Package>
-                <Package>rsync</Package>
                 <Package>rsyslog</Package>
                 <Package>rtmpdump</Package>
                 <Package>ruby</Package>
@@ -881,6 +913,7 @@
                 <Package>twolame</Package>
                 <Package>udisks2</Package>
                 <Package>unicode-ucd</Package>
+                <Package>unixODBC</Package>
                 <Package>unzip</Package>
                 <Package>upower</Package>
                 <Package>urlgrabber</Package>
@@ -918,6 +951,7 @@
                 <Package>xcb-util-keysyms</Package>
                 <Package>xcb-util-renderutil</Package>
                 <Package>xcb-util-wm</Package>
+                <Package>xdg-user-dirs</Package>
                 <Package>xdg-utils</Package>
                 <Package>xfsprogs</Package>
                 <Package>xine-lib</Package>
@@ -956,6 +990,7 @@
                 <Package>xorg-video-mga</Package>
                 <Package>xorg-video-neomagic</Package>
                 <Package>xorg-video-nouveau</Package>
+                <Package>xorg-video-nvidia-current</Package>
                 <Package>xorg-video-openchrome</Package>
                 <Package>xorg-video-r128</Package>
                 <Package>xorg-video-radeon</Package>
@@ -1000,7 +1035,6 @@
         <SelectedPackage>panda</SelectedPackage>
         <SelectedPackage>pisilinux-desktop-services</SelectedPackage>
         <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
-        <SelectedPackage>python-sip</SelectedPackage>
         <SelectedPackage>xkeyboard-config</SelectedPackage>
         <SelectedPackage>zorg</SelectedPackage>
         <Package>ConsoleKit</Package>
@@ -1013,7 +1047,6 @@
         <Package>b43-fwcutter</Package>
         <Package>baselayout</Package>
         <Package>bash</Package>
-        <Package>bash-completion</Package>
         <Package>bc</Package>
         <Package>biosdevname</Package>
         <Package>busybox</Package>
@@ -1050,7 +1083,6 @@
         <Package>gawk</Package>
         <Package>gdbm</Package>
         <Package>gettext</Package>
-        <Package>gfxtheme-pisilinux-install</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
         <Package>glibc-32bit</Package>
@@ -1154,7 +1186,6 @@
         <Package>libva-intel-driver</Package>
         <Package>libvdpau</Package>
         <Package>libxcb</Package>
-        <Package>libxkbcommon</Package>
         <Package>libxkbfile</Package>
         <Package>libxml2</Package>
         <Package>libxshmfence</Package>
@@ -1171,13 +1202,11 @@
         <Package>man-pages</Package>
         <Package>mdadm</Package>
         <Package>mdadm-static</Package>
-        <Package>memtest86</Package>
         <Package>mesa</Package>
         <Package>mingetty</Package>
         <Package>miscfiles</Package>
         <Package>mkinitramfs</Package>
-        <Package>module-virtualbox</Package>
-        <Package>module-virtualbox-guest</Package>
+        <Package>module-nvidia-current</Package>
         <Package>module-virtualbox-guest-userspace</Package>
         <Package>module-virtualbox-userspace</Package>
         <Package>mpfr</Package>
@@ -1225,7 +1254,7 @@
         <Package>python-pyliblzma</Package>
         <Package>python-qt</Package>
         <Package>python-qt-common</Package>
-        <Package>python-sip</Package>
+        <Package>python-sip2</Package>
         <Package>python-udev</Package>
         <Package>qt</Package>
         <Package>qtermwidget</Package>
@@ -1235,7 +1264,6 @@
         <Package>run-parts</Package>
         <Package>sed</Package>
         <Package>shadow</Package>
-        <Package>sip</Package>
         <Package>snappy</Package>
         <Package>spidermonkey</Package>
         <Package>sqlite</Package>
@@ -1265,7 +1293,6 @@
         <Package>xdm</Package>
         <Package>xfsprogs</Package>
         <Package>xinit</Package>
-        <Package>xkeyboard-config</Package>
         <Package>xorg-app</Package>
         <Package>xorg-input-acecad</Package>
         <Package>xorg-input-aiptek</Package>
@@ -1291,6 +1318,7 @@
         <Package>xorg-video-mga</Package>
         <Package>xorg-video-neomagic</Package>
         <Package>xorg-video-nouveau</Package>
+        <Package>xorg-video-nvidia-current</Package>
         <Package>xorg-video-openchrome</Package>
         <Package>xorg-video-r128</Package>
         <Package>xorg-video-radeon</Package>

@@ -360,7 +360,6 @@
         <SelectedPackage>panda</SelectedPackage>
         <SelectedPackage>pisilinux-desktop-services</SelectedPackage>
         <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
-        <SelectedPackage>python-sip</SelectedPackage>
         <SelectedPackage>xkeyboard-config</SelectedPackage>
         <SelectedPackage>zorg</SelectedPackage>
         <Package>ConsoleKit</Package>
@@ -373,7 +372,6 @@
         <Package>b43-fwcutter</Package>
         <Package>baselayout</Package>
         <Package>bash</Package>
-        <Package>bash-completion</Package>
         <Package>bc</Package>
         <Package>biosdevname</Package>
         <Package>busybox</Package>
@@ -410,7 +408,6 @@
         <Package>gawk</Package>
         <Package>gdbm</Package>
         <Package>gettext</Package>
-        <Package>gfxtheme-pisilinux-install</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
         <Package>glibc-32bit</Package>
@@ -514,7 +511,6 @@
         <Package>libva-intel-driver</Package>
         <Package>libvdpau</Package>
         <Package>libxcb</Package>
-        <Package>libxkbcommon</Package>
         <Package>libxkbfile</Package>
         <Package>libxml2</Package>
         <Package>libxshmfence</Package>
@@ -531,13 +527,11 @@
         <Package>man-pages</Package>
         <Package>mdadm</Package>
         <Package>mdadm-static</Package>
-        <Package>memtest86</Package>
         <Package>mesa</Package>
         <Package>mingetty</Package>
         <Package>miscfiles</Package>
         <Package>mkinitramfs</Package>
-        <Package>module-virtualbox</Package>
-        <Package>module-virtualbox-guest</Package>
+        <Package>module-nvidia-current</Package>
         <Package>module-virtualbox-guest-userspace</Package>
         <Package>module-virtualbox-userspace</Package>
         <Package>mpfr</Package>
@@ -585,7 +579,7 @@
         <Package>python-pyliblzma</Package>
         <Package>python-qt</Package>
         <Package>python-qt-common</Package>
-        <Package>python-sip</Package>
+        <Package>python-sip2</Package>
         <Package>python-udev</Package>
         <Package>qt</Package>
         <Package>qtermwidget</Package>
@@ -595,7 +589,6 @@
         <Package>run-parts</Package>
         <Package>sed</Package>
         <Package>shadow</Package>
-        <Package>sip</Package>
         <Package>snappy</Package>
         <Package>spidermonkey</Package>
         <Package>sqlite</Package>
@@ -625,7 +618,6 @@
         <Package>xdm</Package>
         <Package>xfsprogs</Package>
         <Package>xinit</Package>
-        <Package>xkeyboard-config</Package>
         <Package>xorg-app</Package>
         <Package>xorg-input-acecad</Package>
         <Package>xorg-input-aiptek</Package>
@@ -651,6 +643,7 @@
         <Package>xorg-video-mga</Package>
         <Package>xorg-video-neomagic</Package>
         <Package>xorg-video-nouveau</Package>
+        <Package>xorg-video-nvidia-current</Package>
         <Package>xorg-video-openchrome</Package>
         <Package>xorg-video-r128</Package>
         <Package>xorg-video-radeon</Package>
