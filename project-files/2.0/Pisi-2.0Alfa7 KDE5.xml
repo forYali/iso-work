@@ -1,5 +1,5 @@
 <PardusmanProject type="install" compression="xz">
-    <Title>Pisi Linux 2.0 Alfa6 KDE5 Lost Cat x86_64 </Title>
+    <Title>Pisi Linux 2.0 Alfa7 KDE5 New Cat x86_64</Title>
     <WorkDir>/home/ertugrul/Work_yali</WorkDir>
     <ReleaseFiles>/home/ertugrul/Works/iso-work/release-files/pisilinux/media-content</ReleaseFiles>
     <PackageCollections>
@@ -242,6 +242,7 @@
                 <Package>bluez-qt</Package>
                 <Package>boost</Package>
                 <Package>breeze-cursors</Package>
+                <Package>breeze-gtk</Package>
                 <Package>breeze-icons</Package>
                 <Package>breeze-style</Package>
                 <Package>breeze-wallpapers</Package>
@@ -253,7 +254,6 @@
                 <Package>celt</Package>
                 <Package>cgmanager</Package>
                 <Package>cln</Package>
-                <Package>cmake</Package>
                 <Package>comar</Package>
                 <Package>comar-api</Package>
                 <Package>coreutils</Package>
@@ -279,6 +279,7 @@
                 <Package>device-mapper-static</Package>
                 <Package>dhcpcd</Package>
                 <Package>diffutils</Package>
+                <Package>discover</Package>
                 <Package>disktype</Package>
                 <Package>djbfft</Package>
                 <Package>dmapi</Package>
@@ -293,14 +294,15 @@
                 <Package>e2fsprogs</Package>
                 <Package>ebook-tools</Package>
                 <Package>elfutils</Package>
+                <Package>enca</Package>
                 <Package>enchant</Package>
                 <Package>eudev</Package>
                 <Package>exiv2-libs</Package>
                 <Package>expat</Package>
-                <Package>extra-cmake-modules</Package>
                 <Package>faac</Package>
                 <Package>faad2</Package>
                 <Package>ffmpeg</Package>
+                <Package>ffmpegthumbs</Package>
                 <Package>fftw3</Package>
                 <Package>file</Package>
                 <Package>findutils</Package>
@@ -439,9 +441,9 @@
                 <Package>kcoreaddons</Package>
                 <Package>kcrash</Package>
                 <Package>kdbusaddons</Package>
+                <Package>kde-baseapps</Package>
                 <Package>kde-cli-tools</Package>
                 <Package>kde-gtk-config</Package>
-                <Package>kdebaseapps</Package>
                 <Package>kdeclarative</Package>
                 <Package>kdecorations</Package>
                 <Package>kded</Package>
@@ -491,6 +493,7 @@
                 <Package>kross</Package>
                 <Package>krunner</Package>
                 <Package>kscreen</Package>
+                <Package>kscreenlocker</Package>
                 <Package>kservice</Package>
                 <Package>ksnapshot</Package>
                 <Package>ksshaskpass</Package>
@@ -532,6 +535,7 @@
                 <Package>libXi</Package>
                 <Package>libXinerama</Package>
                 <Package>libXmu</Package>
+                <Package>libXp</Package>
                 <Package>libXpm</Package>
                 <Package>libXrandr</Package>
                 <Package>libXrender</Package>
@@ -590,10 +594,10 @@
                 <Package>libevdev</Package>
                 <Package>libevent</Package>
                 <Package>libexif</Package>
+                <Package>libexplain</Package>
                 <Package>libffado</Package>
                 <Package>libffi</Package>
                 <Package>libfontenc</Package>
-                <Package>libfreebob</Package>
                 <Package>libftdi</Package>
                 <Package>libgcc</Package>
                 <Package>libgcrypt</Package>
@@ -649,6 +653,7 @@
                 <Package>libqalculate</Package>
                 <Package>libqmi</Package>
                 <Package>libquadmath</Package>
+                <Package>libquicktime</Package>
                 <Package>libraw</Package>
                 <Package>libraw1394</Package>
                 <Package>libreoffice-calc</Package>
@@ -754,6 +759,7 @@
                 <Package>module-virtualbox-guest-userspace</Package>
                 <Package>module-virtualbox-userspace</Package>
                 <Package>mpfr</Package>
+                <Package>mpv-player</Package>
                 <Package>mtools</Package>
                 <Package>mudur</Package>
                 <Package>ncompress</Package>
@@ -833,6 +839,7 @@
                 <Package>python-pyliblzma</Package>
                 <Package>python-setuptools</Package>
                 <Package>python3</Package>
+                <Package>qca2-qt5</Package>
                 <Package>qrencode</Package>
                 <Package>qt5-accountsservice</Package>
                 <Package>qt5-assistant</Package>
@@ -843,6 +850,7 @@
                 <Package>qt5-designer</Package>
                 <Package>qt5-enginio</Package>
                 <Package>qt5-graphicaleffects</Package>
+                <Package>qt5-gstreamer</Package>
                 <Package>qt5-imageformats</Package>
                 <Package>qt5-linguist</Package>
                 <Package>qt5-location</Package>
@@ -867,6 +875,7 @@
                 <Package>qt5-x11extras</Package>
                 <Package>qt5-xmlpatterns</Package>
                 <Package>readline</Package>
+                <Package>recode</Package>
                 <Package>rrdtool</Package>
                 <Package>rsyslog</Package>
                 <Package>rtmpdump</Package>
@@ -887,6 +896,8 @@
                 <Package>skey</Package>
                 <Package>slang</Package>
                 <Package>smpeg</Package>
+                <Package>smplayer</Package>
+                <Package>smtube</Package>
                 <Package>snappy</Package>
                 <Package>solid</Package>
                 <Package>sonnet</Package>
@@ -916,6 +927,7 @@
                 <Package>udisks2</Package>
                 <Package>unicode-ucd</Package>
                 <Package>unixODBC</Package>
+                <Package>unrar</Package>
                 <Package>unzip</Package>
                 <Package>upower</Package>
                 <Package>urlgrabber</Package>
@@ -929,11 +941,13 @@
                 <Package>vbetool</Package>
                 <Package>vcdimager</Package>
                 <Package>vdpau-video</Package>
+                <Package>virtualbox-guest-utils</Package>
                 <Package>vixie-cron</Package>
                 <Package>vlc</Package>
                 <Package>vlc-libs</Package>
                 <Package>vlc-lua</Package>
                 <Package>vo-amrwbenc</Package>
+                <Package>vokoscreen</Package>
                 <Package>wayland</Package>
                 <Package>wayland-client</Package>
                 <Package>wayland-cursor</Package>
@@ -1066,6 +1080,7 @@
         <Package>dbus</Package>
         <Package>dbus-glib</Package>
         <Package>dbus-python</Package>
+        <Package>dbus-x11</Package>
         <Package>device-mapper</Package>
         <Package>device-mapper-event</Package>
         <Package>device-mapper-static</Package>
@@ -1291,6 +1306,7 @@
         <Package>util-linux</Package>
         <Package>v86d</Package>
         <Package>vdpau-video</Package>
+        <Package>virtualbox-guest-utils</Package>
         <Package>vixie-cron</Package>
         <Package>wayland</Package>
         <Package>wayland-client</Package>
