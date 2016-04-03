@@ -1,7 +1,7 @@
 <PardusmanProject type="install" compression="xz">
-    <Title>Pisi Linux 2.0 Alfa7 KDE5 New Cat x86_64</Title>
-    <WorkDir>/home/works/isowork</WorkDir>
-    <ReleaseFiles>/home/works/iso-work-master/release-files/pisilinux/media-content</ReleaseFiles>
+    <Title>Pisi Linux 2.0 Beta KDE5 x86_64</Title>
+    <WorkDir>/home/ertugerata/Works/isowork</WorkDir>
+    <ReleaseFiles>/home/ertugerata/iso-work-master/release-files/pisilinux/media-content</ReleaseFiles>
     <PackageCollections>
         <PackageCollection default="True">
             <Id>mefNI0c0rmyf9p</Id>
@@ -64,7 +64,7 @@
                     <Description>Temel Sistem</Description>
                 </Translation>
             </Translations>
-            <PackageSelection repo_uri="file:///home/works/repo/pisi-index.xml">
+            <PackageSelection repo_uri="file:///home/ertugerata/repo4yali/pisi-index.xml.xz">
                 <SelectedComponent>desktop.kde.framework</SelectedComponent>
                 <SelectedComponent>desktop.kde.plasma</SelectedComponent>
                 <SelectedComponent>desktop.kde.porting-aids</SelectedComponent>
@@ -142,25 +142,11 @@
                 <SelectedPackage>kernel-headers</SelectedPackage>
                 <SelectedPackage>kio-extras</SelectedPackage>
                 <SelectedPackage>konsole</SelectedPackage>
-                <SelectedPackage>ksnapshot</SelectedPackage>
                 <SelectedPackage>libdc1394</SelectedPackage>
                 <SelectedPackage>liberation-fonts</SelectedPackage>
                 <SelectedPackage>libevent</SelectedPackage>
                 <SelectedPackage>libexif</SelectedPackage>
                 <SelectedPackage>libraw1394</SelectedPackage>
-                <SelectedPackage>libreoffice-calc</SelectedPackage>
-                <SelectedPackage>libreoffice-common</SelectedPackage>
-                <SelectedPackage>libreoffice-de</SelectedPackage>
-                <SelectedPackage>libreoffice-draw</SelectedPackage>
-                <SelectedPackage>libreoffice-en-US</SelectedPackage>
-                <SelectedPackage>libreoffice-hu</SelectedPackage>
-                <SelectedPackage>libreoffice-impress</SelectedPackage>
-                <SelectedPackage>libreoffice-it</SelectedPackage>
-                <SelectedPackage>libreoffice-pt</SelectedPackage>
-                <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
-                <SelectedPackage>libreoffice-ru</SelectedPackage>
-                <SelectedPackage>libreoffice-tr</SelectedPackage>
-                <SelectedPackage>libreoffice-writer</SelectedPackage>
                 <SelectedPackage>linux-firmware</SelectedPackage>
                 <SelectedPackage>llvm</SelectedPackage>
                 <SelectedPackage>logrotate</SelectedPackage>
@@ -185,6 +171,7 @@
                 <SelectedPackage>poppler-glib</SelectedPackage>
                 <SelectedPackage>pulseaudio</SelectedPackage>
                 <SelectedPackage>qt5-phonon-backend-gstreamer</SelectedPackage>
+                <SelectedPackage>spectacle</SelectedPackage>
                 <SelectedPackage>startup-notification</SelectedPackage>
                 <SelectedPackage>sudo</SelectedPackage>
                 <SelectedPackage>suspend</SelectedPackage>
@@ -205,6 +192,7 @@
                 <Package>DirectFB</Package>
                 <Package>ModemManager</Package>
                 <Package>NetworkManager</Package>
+                <Package>Xaw3d</Package>
                 <Package>a52dec</Package>
                 <Package>aalib</Package>
                 <Package>accountsservice</Package>
@@ -240,10 +228,11 @@
                 <Package>bluez</Package>
                 <Package>bluez-libs</Package>
                 <Package>bluez-qt</Package>
-                <Package>boost</Package>
                 <Package>breeze-cursors</Package>
+                <Package>breeze-grub</Package>
                 <Package>breeze-gtk</Package>
                 <Package>breeze-icons</Package>
+                <Package>breeze-plymouth</Package>
                 <Package>breeze-style</Package>
                 <Package>breeze-wallpapers</Package>
                 <Package>busybox</Package>
@@ -427,6 +416,7 @@
                 <Package>json-c</Package>
                 <Package>json-glib</Package>
                 <Package>kactivities</Package>
+                <Package>kactivitymanagerd</Package>
                 <Package>kapidox</Package>
                 <Package>karchive</Package>
                 <Package>kate</Package>
@@ -495,7 +485,6 @@
                 <Package>kscreen</Package>
                 <Package>kscreenlocker</Package>
                 <Package>kservice</Package>
-                <Package>ksnapshot</Package>
                 <Package>ksshaskpass</Package>
                 <Package>ksysguard</Package>
                 <Package>ktexteditor</Package>
@@ -562,6 +551,7 @@
                 <Package>libcanberra</Package>
                 <Package>libcap</Package>
                 <Package>libcap-ng</Package>
+                <Package>libcdaudio</Package>
                 <Package>libcddb</Package>
                 <Package>libcdio</Package>
                 <Package>libcdio-paranoia</Package>
@@ -577,6 +567,7 @@
                 <Package>libdmtx</Package>
                 <Package>libdmx</Package>
                 <Package>libdrm</Package>
+                <Package>libdrm-amd</Package>
                 <Package>libdrm-intel</Package>
                 <Package>libdrm-nouveau</Package>
                 <Package>libdrm-radeon</Package>
@@ -604,6 +595,7 @@
                 <Package>libgit2</Package>
                 <Package>libgomp</Package>
                 <Package>libgpg-error</Package>
+                <Package>libgudev</Package>
                 <Package>libical</Package>
                 <Package>libid3tag</Package>
                 <Package>libidn</Package>
@@ -656,19 +648,6 @@
                 <Package>libquicktime</Package>
                 <Package>libraw</Package>
                 <Package>libraw1394</Package>
-                <Package>libreoffice-calc</Package>
-                <Package>libreoffice-common</Package>
-                <Package>libreoffice-de</Package>
-                <Package>libreoffice-draw</Package>
-                <Package>libreoffice-en-US</Package>
-                <Package>libreoffice-hu</Package>
-                <Package>libreoffice-impress</Package>
-                <Package>libreoffice-it</Package>
-                <Package>libreoffice-pt</Package>
-                <Package>libreoffice-pt-BR</Package>
-                <Package>libreoffice-ru</Package>
-                <Package>libreoffice-tr</Package>
-                <Package>libreoffice-writer</Package>
                 <Package>librsvg</Package>
                 <Package>libsamplerate</Package>
                 <Package>libsdl</Package>
@@ -771,6 +750,7 @@
                 <Package>network-manager-applet</Package>
                 <Package>networkmanager-qt</Package>
                 <Package>newt</Package>
+                <Package>noto-fonts</Package>
                 <Package>npth</Package>
                 <Package>nspr</Package>
                 <Package>nss</Package>
@@ -784,6 +764,7 @@
                 <Package>openexr-libs</Package>
                 <Package>openjpeg</Package>
                 <Package>openldap-client</Package>
+                <Package>openslp</Package>
                 <Package>openssh</Package>
                 <Package>openssl</Package>
                 <Package>orc</Package>
@@ -807,13 +788,20 @@
                 <Package>pixman</Package>
                 <Package>plasma-desktop</Package>
                 <Package>plasma-framework</Package>
+                <Package>plasma-integration</Package>
                 <Package>plasma-mediacenter</Package>
                 <Package>plasma-nm</Package>
                 <Package>plasma-pa</Package>
                 <Package>plasma-sdk</Package>
                 <Package>plasma-workspace</Package>
                 <Package>plasma-workspace-wallpapers</Package>
+                <Package>plymouth</Package>
                 <Package>plymouth-core-libs</Package>
+                <Package>plymouth-graphics-libs</Package>
+                <Package>plymouth-plugin-label</Package>
+                <Package>plymouth-plugin-script</Package>
+                <Package>plymouth-plugin-two-step</Package>
+                <Package>plymouth-theme-spinner</Package>
                 <Package>plyvel</Package>
                 <Package>pm-utils</Package>
                 <Package>polkit</Package>
@@ -838,7 +826,6 @@
                 <Package>python-psutil</Package>
                 <Package>python-pyliblzma</Package>
                 <Package>python-setuptools</Package>
-                <Package>python3</Package>
                 <Package>qca2-qt5</Package>
                 <Package>qrencode</Package>
                 <Package>qt5-accountsservice</Package>
@@ -893,7 +880,6 @@
                 <Package>sgml-common</Package>
                 <Package>shadow</Package>
                 <Package>shared-mime-info</Package>
-                <Package>skey</Package>
                 <Package>slang</Package>
                 <Package>smpeg</Package>
                 <Package>smplayer</Package>
@@ -902,6 +888,7 @@
                 <Package>solid</Package>
                 <Package>sonnet</Package>
                 <Package>soundtouch</Package>
+                <Package>spectacle</Package>
                 <Package>speex</Package>
                 <Package>spidermonkey</Package>
                 <Package>sqlite</Package>
@@ -937,6 +924,7 @@
                 <Package>utempter</Package>
                 <Package>util-linux</Package>
                 <Package>uuidd</Package>
+                <Package>v4l-utils</Package>
                 <Package>v86d</Package>
                 <Package>vbetool</Package>
                 <Package>vcdimager</Package>
@@ -998,9 +986,9 @@
                 <Package>xorg-video-cirrus</Package>
                 <Package>xorg-video-dummy</Package>
                 <Package>xorg-video-fbdev</Package>
-                <Package>xorg-video-geode</Package>
                 <Package>xorg-video-glint</Package>
                 <Package>xorg-video-i128</Package>
+                <Package>xorg-video-i740</Package>
                 <Package>xorg-video-intel</Package>
                 <Package>xorg-video-mach64</Package>
                 <Package>xorg-video-mga</Package>
@@ -1091,6 +1079,9 @@
         <Package>dosfstools</Package>
         <Package>droid-fonts</Package>
         <Package>e2fsprogs</Package>
+        <Package>efibootmgr</Package>
+        <Package>efivar</Package>
+        <Package>elfutils</Package>
         <Package>eudev</Package>
         <Package>expat</Package>
         <Package>file</Package>
@@ -1120,6 +1111,7 @@
         <Package>gmp</Package>
         <Package>gperf</Package>
         <Package>gperftools</Package>
+        <Package>gptfdisk</Package>
         <Package>grep</Package>
         <Package>groff</Package>
         <Package>grub2</Package>
@@ -1167,6 +1159,7 @@
         <Package>libcap-ng</Package>
         <Package>libdmx</Package>
         <Package>libdrm</Package>
+        <Package>libdrm-amd</Package>
         <Package>libdrm-intel</Package>
         <Package>libdrm-nouveau</Package>
         <Package>libdrm-radeon</Package>
@@ -1335,9 +1328,9 @@
         <Package>xorg-video-cirrus</Package>
         <Package>xorg-video-dummy</Package>
         <Package>xorg-video-fbdev</Package>
-        <Package>xorg-video-geode</Package>
         <Package>xorg-video-glint</Package>
         <Package>xorg-video-i128</Package>
+        <Package>xorg-video-i740</Package>
         <Package>xorg-video-intel</Package>
         <Package>xorg-video-mach64</Package>
         <Package>xorg-video-mga</Package>

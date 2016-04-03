@@ -18,8 +18,9 @@ import tempfile
 # Qt
 import QTermWidget
 
-from PyQt4.QtGui import QIcon, QMessageBox, QMainWindow, QFileDialog, QListWidgetItem, QFont
-from PyQt4.QtCore import SIGNAL, QFile, Qt
+from PyQt5.QtWidgets import QMessageBox, QMainWindow, QFileDialog, QListWidgetItem
+from PyQt5.QtGui import QIcon, QFont
+from PyQt5.QtCore import pyqtSignal, QFile, Qt
 
 
 # UI
@@ -50,7 +51,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, args):
         QMainWindow.__init__(self)
         self.setupUi(self)
-        self.title = "Pardusman"
+        self.title = "Pisiman"
         # Terminal
 
         self.terminal = QTermWidget.QTermWidget()
@@ -76,32 +77,32 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.collections = None
 
         # File menu
-        self.connect(self.actionNew, SIGNAL("activated()"), self.slotNew)
-        self.connect(self.actionOpen, SIGNAL("activated()"), self.slotOpen)
-        self.connect(self.actionSave, SIGNAL("activated()"), self.slotSave)
-        self.connect(self.actionSaveAs, SIGNAL("activated()"), self.slotSaveAs)
-        self.connect(self.actionExit, SIGNAL("activated()"), self.close)
+        self.actionNew.triggered.connect(self.slotNew)
+        self.actionOpen.triggered.connect(self.slotOpen)
+        self.actionSave.triggered.connect(self.slotSave)
+	self.actionSaveAs.triggered.connect(self.slotSaveAs)
+        self.actionExit.triggered.connect(self.close)
 
         # Project menu
-        self.connect(self.actionUpdateRepo, SIGNAL("activated()"), self.slotUpdateRepo)
-        self.connect(self.actionLanguages, SIGNAL("activated()"), self.slotSelectLanguages)
-        self.connect(self.actionPackages, SIGNAL("activated()"), self.slotSelectPackages)
-        self.connect(self.actionInstallationImagePackages, SIGNAL("activated()"), self.slotSelectInstallImagePackages)
-        self.connect(self.actionMakeImage, SIGNAL("activated()"), self.slotMakeImage)
+        self.actionUpdateRepo.triggered.connect(self.slotUpdateRepo)
+        self.actionLanguages.triggered.connect(self.slotSelectLanguages)
+        self.actionPackages.triggered.connect(self.slotSelectPackages)
+        self.actionInstallationImagePackages.triggered.connect(self.slotSelectInstallImagePackages)
+        self.actionMakeImage.triggered.connect(self.slotMakeImage)
 
         # Browse buttons
-        self.connect(self.pushBrowseRepository, SIGNAL("clicked()"), self.slotBrowseRepository)
-        self.connect(self.pushBrowseWorkFolder, SIGNAL("clicked()"), self.slotBrowseWorkFolder)
-        self.connect(self.pushBrowsePluginPackage, SIGNAL("clicked()"), self.slotBrowsePluginPackage)
-        self.connect(self.pushBrowseReleaseFiles, SIGNAL("clicked()"), self.slotBrowseReleaseFiles)
+        self.pushBrowseRepository.clicked.connect(self.slotBrowseRepository)
+        self.pushBrowseWorkFolder.clicked.connect(self.slotBrowseWorkFolder)
+        self.pushBrowsePluginPackage.clicked.connect(self.slotBrowsePluginPackage)
+        self.pushBrowseReleaseFiles.clicked.connect(self.slotBrowseReleaseFiles)
 
         # Change Package Selection
-        self.connect(self.pushAddCollection, SIGNAL("clicked()"),self.slotAddPackageCollection)
-        self.connect(self.pushModifyCollection, SIGNAL("clicked()"),self.slotModifyPackageCollection)
-        self.connect(self.pushRemoveCollection, SIGNAL("clicked()"),self.slotRemovePackageCollection)
-        self.connect(self.pushSetDefaultCollection, SIGNAL("clicked()"),self.slotSetDefaultCollection)
-        self.connect(self.checkCollection, SIGNAL("stateChanged(int)"), self.slotShowPackageCollection)
-        self.connect(self.listPackageCollection, SIGNAL("itemClicked(QListWidgetItem *)"),self.slotClickedCollection)
+        self.pushAddCollection.clicked.connect(self.slotAddPackageCollection)
+        self.pushModifyCollection.clicked.connect(self.slotModifyPackageCollection)
+        self.pushRemoveCollection.clicked.connect(self.slotRemovePackageCollection)
+        self.pushSetDefaultCollection.clicked.connect(self.slotSetDefaultCollection)
+        self.checkCollection.stateChanged[int].connect(self.slotShowPackageCollection)
+        self.listPackageCollection.itemClicked[QListWidgetItem].connect(self.slotClickedCollection)
 
         # Initialize
         self.initialize()
@@ -130,10 +131,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         """
         if not filename:
             filename = QFileDialog.getOpenFileName(self, _("Select project file"), ".", "*.xml")
+            filename=filename[0]
         if filename:
             self.project = Project()
+            
             try:
-                self.project.open(unicode(filename))
+                self.project.open(filename)
             except ExProjectMissing:
                 QMessageBox.warning(self, self.title, _("Project file is missing."))
                 return
@@ -157,6 +160,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             "Save As..." menu item fires this function.
         """
         filename = QFileDialog.getSaveFileName(self, _("Save project"), os.getcwd(), "*.xml")
+        filename=filename[0]
         if filename:
             self.project.filename = unicode(filename)
             self.slotSave()
@@ -166,6 +170,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             Browse repository button fires this function.
         """
         filename = QFileDialog.getOpenFileName(self, _("Select repository index"), ".", "pisi-index.xml*")
+        filename=filename[0]
         if filename:
             filename = unicode(filename)
             if filename.startswith("/"):
@@ -177,6 +182,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             Browse plugin package button fires this function.
         """
         filename = QFileDialog.getOpenFileName(self, _("Select plugin package"), ".", "*.pisi")
+        filename=filename[0]
         if filename:
             self.linePluginPackage.setText(filename)
 
@@ -431,20 +437,20 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         missing_components, missing_packages = self.project.get_missing()
         if len(missing_components):
-            print missing_components
-            QMessageBox.warning(self, self.title, _("There are missing components. Removing."))
+            QMessageBox.warning(self, self.title, _("There are missing components: {}. Removing.".format(", ".join(missing_components))))
             for component in missing_components:
                 if component in self.project.selected_components:
                     self.project.selected_components.remove(component)
+                    self.project.selected_install_image_components.remove(component)
             return self.updateRepo(update_repo=False)
-            self.updateRepo(update_repo=False)
+            #self.updateRepo(update_repo=False)
 
         if len(missing_packages):
-            print missing_packages
-            QMessageBox.warning(self, self.title, _("There are missing packages. Removing."))
+            QMessageBox.warning(self, self.title, _("There are missing packages: {}. Removing.".format(", ".join(missing_packages))))
             for package in missing_packages:
                 if package in self.project.selected_packages:
                     self.project.selected_packages.remove(package)
+                    self.project.selected_install_image_packages.remove(package)
             return self.updateRepo(update_repo=False)
 
         self.progress.finished()
