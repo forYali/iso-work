@@ -1043,6 +1043,7 @@
         <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
         <SelectedPackage>xkeyboard-config</SelectedPackage>
         <SelectedPackage>zorg</SelectedPackage>
+        <SelectedPackage>nano</SelectedPackage>
         <Package>ConsoleKit</Package>
         <Package>acl</Package>
         <Package>alsa-firmware</Package>
