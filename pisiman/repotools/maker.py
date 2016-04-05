@@ -155,10 +155,11 @@ label rescue
 """ % dict
 
     isolinux_tmpl = """
-prompt 1
-timeout 200
-
-ui gfxboot.c32 /boot/isolinux/init
+default start
+implicit 1
+ui gfxboot bootlogo 
+prompt   1
+timeout  200
 
 label pisilinux
     kernel /boot/kernel
@@ -255,10 +256,14 @@ def setup_isolinux(project):
     # we don't use debug anymore for the sake of hybrid
     copy(os.path.join(image_dir, "usr/lib/syslinux/isolinux.bin"), "%s/isolinux.bin" % dest)
     copy(os.path.join(image_dir, "usr/lib/syslinux/hdt.c32"), dest)
-    # for boot 
-    copy(os.path.join(image_dir, "usr/lib/syslinux/linux.c32"), dest)
+   
+    #for boot new syslinux
     copy(os.path.join(image_dir, "usr/lib/syslinux/ldlinux.c32"), dest)
     copy(os.path.join(image_dir, "usr/lib/syslinux/libcom32.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/libutil.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/vesamenu.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/libmenu.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/libgpl.c32"), dest)
     
     copy(os.path.join(image_dir, "usr/lib/syslinux/gfxboot.c32"), dest)
     copy(os.path.join(image_dir, "usr/share/misc/pci.ids"), dest)
