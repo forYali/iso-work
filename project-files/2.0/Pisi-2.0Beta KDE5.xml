@@ -108,6 +108,8 @@
                 <SelectedPackage>firefox-lang-tr</SelectedPackage>
                 <SelectedPackage>firefox-lang-uk</SelectedPackage>
                 <SelectedPackage>font-util</SelectedPackage>
+                <SelectedPackage>foomatic-db</SelectedPackage>
+                <SelectedPackage>foomatic-db-engine</SelectedPackage>
                 <SelectedPackage>ghostscript</SelectedPackage>
                 <SelectedPackage>gimp</SelectedPackage>
                 <SelectedPackage>gimp-i18n-de</SelectedPackage>
@@ -132,6 +134,7 @@
                 <SelectedPackage>glibc-locales-ru</SelectedPackage>
                 <SelectedPackage>glibc-locales-uk</SelectedPackage>
                 <SelectedPackage>gpgme</SelectedPackage>
+                <SelectedPackage>gutenprint</SelectedPackage>
                 <SelectedPackage>gwenview</SelectedPackage>
                 <SelectedPackage>iputils</SelectedPackage>
                 <SelectedPackage>irqbalance</SelectedPackage>
@@ -164,11 +167,13 @@
                 <SelectedPackage>net-snmptrap</SelectedPackage>
                 <SelectedPackage>network-manager-applet</SelectedPackage>
                 <SelectedPackage>ntfsprogs</SelectedPackage>
+                <SelectedPackage>okular</SelectedPackage>
                 <SelectedPackage>openssh</SelectedPackage>
                 <SelectedPackage>oxygen</SelectedPackage>
                 <SelectedPackage>parted</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
                 <SelectedPackage>poppler-glib</SelectedPackage>
+                <SelectedPackage>print-manager</SelectedPackage>
                 <SelectedPackage>pulseaudio</SelectedPackage>
                 <SelectedPackage>qt5-phonon-backend-gstreamer</SelectedPackage>
                 <SelectedPackage>spectacle</SelectedPackage>
@@ -271,6 +276,7 @@
                 <Package>discover</Package>
                 <Package>disktype</Package>
                 <Package>djbfft</Package>
+                <Package>djvu</Package>
                 <Package>dmapi</Package>
                 <Package>dmidecode</Package>
                 <Package>docbook-xml</Package>
@@ -285,6 +291,7 @@
                 <Package>elfutils</Package>
                 <Package>enca</Package>
                 <Package>enchant</Package>
+                <Package>enscript</Package>
                 <Package>eudev</Package>
                 <Package>exiv2-libs</Package>
                 <Package>expat</Package>
@@ -316,6 +323,8 @@
                 <Package>fluidsynth</Package>
                 <Package>font-util</Package>
                 <Package>fontconfig</Package>
+                <Package>foomatic-db</Package>
+                <Package>foomatic-db-engine</Package>
                 <Package>frameworkintegration</Package>
                 <Package>freeglut</Package>
                 <Package>freerdp</Package>
@@ -391,6 +400,7 @@
                 <Package>gtk2</Package>
                 <Package>gtk3</Package>
                 <Package>guile</Package>
+                <Package>gutenprint</Package>
                 <Package>gwenview</Package>
                 <Package>gzip</Package>
                 <Package>harfbuzz</Package>
@@ -593,6 +603,7 @@
                 <Package>libgcc</Package>
                 <Package>libgcrypt</Package>
                 <Package>libgit2</Package>
+                <Package>libgnome-keyring</Package>
                 <Package>libgomp</Package>
                 <Package>libgpg-error</Package>
                 <Package>libgudev</Package>
@@ -605,6 +616,7 @@
                 <Package>libjpeg-turbo</Package>
                 <Package>libkate</Package>
                 <Package>libkdcraw</Package>
+                <Package>libkexiv2</Package>
                 <Package>libkipi</Package>
                 <Package>libkmod</Package>
                 <Package>libkms</Package>
@@ -657,6 +669,7 @@
                 <Package>libsndfile</Package>
                 <Package>libsoup</Package>
                 <Package>libsoup-gnome</Package>
+                <Package>libspectre</Package>
                 <Package>libspiro</Package>
                 <Package>libssh</Package>
                 <Package>libssh2</Package>
@@ -757,6 +770,7 @@
                 <Package>ntfs-3g</Package>
                 <Package>ntfsprogs</Package>
                 <Package>numactl</Package>
+                <Package>okular</Package>
                 <Package>openal</Package>
                 <Package>openconnect</Package>
                 <Package>opencore-amr</Package>
@@ -803,6 +817,7 @@
                 <Package>plymouth-theme-spinner</Package>
                 <Package>plyvel</Package>
                 <Package>pm-utils</Package>
+                <Package>pnm2ppa</Package>
                 <Package>polkit</Package>
                 <Package>polkit-kde-authentication-agent-1</Package>
                 <Package>polkit-qt</Package>
@@ -814,6 +829,7 @@
                 <Package>postgresql-lib</Package>
                 <Package>powerdevil</Package>
                 <Package>ppp</Package>
+                <Package>print-manager</Package>
                 <Package>prison-qt5</Package>
                 <Package>procps</Package>
                 <Package>psmisc</Package>
@@ -822,9 +838,13 @@
                 <Package>pycurl</Package>
                 <Package>pypolkit</Package>
                 <Package>python</Package>
+                <Package>python-cairo</Package>
+                <Package>python-cups</Package>
                 <Package>python-psutil</Package>
+                <Package>python-pygobject3</Package>
                 <Package>python-pyliblzma</Package>
                 <Package>python-setuptools</Package>
+                <Package>python-smbc</Package>
                 <Package>qca2-qt5</Package>
                 <Package>qrencode</Package>
                 <Package>qt5-accountsservice</Package>
@@ -894,6 +914,7 @@
                 <Package>sudo</Package>
                 <Package>suspend</Package>
                 <Package>sysfsutils</Package>
+                <Package>system-config-printer</Package>
                 <Package>system-settings</Package>
                 <Package>sysvinit</Package>
                 <Package>sysvinit-tools</Package>
