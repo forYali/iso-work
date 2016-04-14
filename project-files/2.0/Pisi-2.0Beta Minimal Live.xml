@@ -4,7 +4,7 @@
     <ReleaseFiles>/home/ertugrul/Works/iso-work/release-files/pisilinux/media-content</ReleaseFiles>
     <PackageCollections>
         <PackageCollection default="True">
-            <Id>5ZscIgJQw6p3kPy</Id>
+            <Id>BMePEHGp</Id>
             <Icon>minimal-collection-icon.png</Icon>
             <Translations>
                 <Translation language="ru_RU">
@@ -67,7 +67,6 @@
             <PackageSelection repo_uri="file:///home/ertugrul/Works/repo4yali/pisi-index.xml.xz">
                 <SelectedComponent>hardware.firmware</SelectedComponent>
                 <SelectedComponent>system.base</SelectedComponent>
-                <SelectedPackage>NetworkManager</SelectedPackage>
                 <SelectedPackage>alsa-tools</SelectedPackage>
                 <SelectedPackage>bash-completion</SelectedPackage>
                 <SelectedPackage>bashdb</SelectedPackage>
@@ -93,7 +92,6 @@
                 <SelectedPackage>linux-firmware</SelectedPackage>
                 <SelectedPackage>logrotate</SelectedPackage>
                 <SelectedPackage>lvm2-static</SelectedPackage>
-                <SelectedPackage>mc</SelectedPackage>
                 <SelectedPackage>mdadm</SelectedPackage>
                 <SelectedPackage>mdadm-static</SelectedPackage>
                 <SelectedPackage>memtest86</SelectedPackage>
@@ -102,6 +100,7 @@
                 <SelectedPackage>module-virtualbox</SelectedPackage>
                 <SelectedPackage>module-virtualbox-guest</SelectedPackage>
                 <SelectedPackage>nano</SelectedPackage>
+                <SelectedPackage>NetworkManager</SelectedPackage>
                 <SelectedPackage>ntfsprogs</SelectedPackage>
                 <SelectedPackage>openssh</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
@@ -118,8 +117,6 @@
                 <Package>attr</Package>
                 <Package>audit</Package>
                 <Package>autogen</Package>
-                <Package>avahi</Package>
-                <Package>avahi-libs</Package>
                 <Package>b43-firmware</Package>
                 <Package>b43-fwcutter</Package>
                 <Package>baselayout</Package>
@@ -140,7 +137,6 @@
                 <Package>cpio</Package>
                 <Package>cpupowertools</Package>
                 <Package>cracklib</Package>
-                <Package>cups</Package>
                 <Package>curl</Package>
                 <Package>cyrus-sasl</Package>
                 <Package>db</Package>
@@ -168,7 +164,6 @@
                 <Package>fuse</Package>
                 <Package>gawk</Package>
                 <Package>gc</Package>
-                <Package>gdb</Package>
                 <Package>gdbm</Package>
                 <Package>gettext</Package>
                 <Package>gfxtheme-pisilinux-install</Package>
@@ -193,7 +188,6 @@
                 <Package>gobject-introspection</Package>
                 <Package>gperf</Package>
                 <Package>gperftools</Package>
-                <Package>gpm</Package>
                 <Package>gptfdisk</Package>
                 <Package>grep</Package>
                 <Package>groff</Package>
@@ -202,7 +196,6 @@
                 <Package>gzip</Package>
                 <Package>hdparm</Package>
                 <Package>help2man</Package>
-                <Package>iniparser</Package>
                 <Package>iproute2</Package>
                 <Package>iptables</Package>
                 <Package>irqbalance</Package>
@@ -217,12 +210,9 @@
                 <Package>libX11</Package>
                 <Package>libXau</Package>
                 <Package>libXdmcp</Package>
-                <Package>libaio</Package>
-                <Package>libarchive</Package>
                 <Package>libbsd</Package>
                 <Package>libcap</Package>
                 <Package>libcap-ng</Package>
-                <Package>libdaemon</Package>
                 <Package>libedit</Package>
                 <Package>libee</Package>
                 <Package>libestr</Package>
@@ -242,7 +232,6 @@
                 <Package>libnfnetlink</Package>
                 <Package>libnih</Package>
                 <Package>libnl</Package>
-                <Package>libpaper</Package>
                 <Package>libpcap</Package>
                 <Package>libpcre</Package>
                 <Package>libpipeline</Package>
@@ -251,10 +240,7 @@
                 <Package>libquadmath</Package>
                 <Package>libsoup</Package>
                 <Package>libssh2</Package>
-                <Package>libtalloc</Package>
                 <Package>libtasn1</Package>
-                <Package>libtdb</Package>
-                <Package>libtevent</Package>
                 <Package>libtool-ltdl</Package>
                 <Package>libunistring</Package>
                 <Package>libunwind</Package>
@@ -275,7 +261,6 @@
                 <Package>mailcap</Package>
                 <Package>man-db</Package>
                 <Package>man-pages</Package>
-                <Package>mc</Package>
                 <Package>mdadm</Package>
                 <Package>mdadm-static</Package>
                 <Package>memtest86</Package>
@@ -336,7 +321,6 @@
                 <Package>readline</Package>
                 <Package>rsyslog</Package>
                 <Package>run-parts</Package>
-                <Package>samba</Package>
                 <Package>sed</Package>
                 <Package>shadow</Package>
                 <Package>slang</Package>
