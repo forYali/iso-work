@@ -155,13 +155,12 @@ label rescue
 """ % dict
 
     isolinux_tmpl = """
-default start
 implicit 1
 ui gfxboot bootlogo 
 prompt   1
 timeout  200
 
-label pisilinux
+label %(title)s
     kernel /boot/kernel
     append initrd=/boot/initrd %(exparams)s
 

@@ -150,6 +150,19 @@
                 <SelectedPackage>libevent</SelectedPackage>
                 <SelectedPackage>libexif</SelectedPackage>
                 <SelectedPackage>libraw1394</SelectedPackage>
+                <SelectedPackage>libreoffice-calc</SelectedPackage>
+                <SelectedPackage>libreoffice-common</SelectedPackage>
+                <SelectedPackage>libreoffice-de</SelectedPackage>
+                <SelectedPackage>libreoffice-draw</SelectedPackage>
+                <SelectedPackage>libreoffice-en-US</SelectedPackage>
+                <SelectedPackage>libreoffice-hu</SelectedPackage>
+                <SelectedPackage>libreoffice-impress</SelectedPackage>
+                <SelectedPackage>libreoffice-it</SelectedPackage>
+                <SelectedPackage>libreoffice-pt</SelectedPackage>
+                <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
+                <SelectedPackage>libreoffice-ru</SelectedPackage>
+                <SelectedPackage>libreoffice-tr</SelectedPackage>
+                <SelectedPackage>libreoffice-writer</SelectedPackage>
                 <SelectedPackage>linux-firmware</SelectedPackage>
                 <SelectedPackage>llvm</SelectedPackage>
                 <SelectedPackage>logrotate</SelectedPackage>
@@ -233,6 +246,7 @@
                 <Package>bluez</Package>
                 <Package>bluez-libs</Package>
                 <Package>bluez-qt</Package>
+                <Package>boost</Package>
                 <Package>breeze-cursors</Package>
                 <Package>breeze-grub</Package>
                 <Package>breeze-gtk</Package>
@@ -423,6 +437,7 @@
                 <Package>jack-audio-connection-kit</Package>
                 <Package>jasper</Package>
                 <Package>jbigkit</Package>
+                <Package>jre7-openjdk-headless</Package>
                 <Package>json-c</Package>
                 <Package>json-glib</Package>
                 <Package>kactivities</Package>
@@ -660,6 +675,19 @@
                 <Package>libquicktime</Package>
                 <Package>libraw</Package>
                 <Package>libraw1394</Package>
+                <Package>libreoffice-calc</Package>
+                <Package>libreoffice-common</Package>
+                <Package>libreoffice-de</Package>
+                <Package>libreoffice-draw</Package>
+                <Package>libreoffice-en-US</Package>
+                <Package>libreoffice-hu</Package>
+                <Package>libreoffice-impress</Package>
+                <Package>libreoffice-it</Package>
+                <Package>libreoffice-pt</Package>
+                <Package>libreoffice-pt-BR</Package>
+                <Package>libreoffice-ru</Package>
+                <Package>libreoffice-tr</Package>
+                <Package>libreoffice-writer</Package>
                 <Package>librsvg</Package>
                 <Package>libsamplerate</Package>
                 <Package>libsdl</Package>
@@ -845,6 +873,7 @@
                 <Package>python-pyliblzma</Package>
                 <Package>python-setuptools</Package>
                 <Package>python-smbc</Package>
+                <Package>python3</Package>
                 <Package>qca2-qt5</Package>
                 <Package>qrencode</Package>
                 <Package>qt5-accountsservice</Package>
