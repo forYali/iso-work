@@ -140,6 +140,7 @@
                 <SelectedPackage>irqbalance</SelectedPackage>
                 <SelectedPackage>iso-codes</SelectedPackage>
                 <SelectedPackage>json-glib</SelectedPackage>
+                <SelectedPackage>kaptan</SelectedPackage>
                 <SelectedPackage>kate</SelectedPackage>
                 <SelectedPackage>kde-baseapps</SelectedPackage>
                 <SelectedPackage>kernel-headers</SelectedPackage>
@@ -184,10 +185,12 @@
                 <SelectedPackage>openssh</SelectedPackage>
                 <SelectedPackage>oxygen</SelectedPackage>
                 <SelectedPackage>parted</SelectedPackage>
+                <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
                 <SelectedPackage>poppler-glib</SelectedPackage>
                 <SelectedPackage>print-manager</SelectedPackage>
                 <SelectedPackage>pulseaudio</SelectedPackage>
+                <SelectedPackage>python3-sip</SelectedPackage>
                 <SelectedPackage>qt5-phonon-backend-gstreamer</SelectedPackage>
                 <SelectedPackage>spectacle</SelectedPackage>
                 <SelectedPackage>startup-notification</SelectedPackage>
@@ -443,6 +446,7 @@
                 <Package>kactivities</Package>
                 <Package>kactivitymanagerd</Package>
                 <Package>kapidox</Package>
+                <Package>kaptan</Package>
                 <Package>karchive</Package>
                 <Package>kate</Package>
                 <Package>kauth</Package>
@@ -826,6 +830,7 @@
                 <Package>pisi</Package>
                 <Package>pisilinux-python</Package>
                 <Package>pisilinux-python-xorg</Package>
+                <Package>pisilinux-theme-maia</Package>
                 <Package>pixman</Package>
                 <Package>plasma-desktop</Package>
                 <Package>plasma-framework</Package>
@@ -874,6 +879,8 @@
                 <Package>python-setuptools</Package>
                 <Package>python-smbc</Package>
                 <Package>python3</Package>
+                <Package>python3-qt5</Package>
+                <Package>python3-sip</Package>
                 <Package>qca2-qt5</Package>
                 <Package>qrencode</Package>
                 <Package>qt5-accountsservice</Package>
