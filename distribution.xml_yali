@@ -8,6 +8,8 @@
     <Type>Core</Type>
     <BinaryName>PisiLinux</BinaryName>
     <Obsoletes>
+        <!--glibc-32bit merge in glibc-->
+           <Package>glibc-32bit</Package>
         <!--for yali -->
         <Package>xorg-video-nvidia304</Package>
         <Package>xorg-video-nvidia340</Package>
