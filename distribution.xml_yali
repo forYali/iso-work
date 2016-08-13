@@ -16,12 +16,15 @@
         <Package>xorg-video-nvidia340-32bit</Package>
         <Package>xorg-video-nvidia304-32bit</Package>
         <Package>module-nvidia-current</Package>
-        <Package>module-nvidia304</Package> 
-        <Package>module-nvidia340</Package>   
-        <Package>nvidia-settings</Package>        
-        <Package>nvidia-xconfig</Package>           
-        <Package>xorg-video-nvidia-current</Package>              
+        <Package>module-nvidia304</Package>
+        <Package>module-nvidia340</Package>
+        <Package>nvidia-settings</Package>
+        <Package>nvidia-xconfig</Package>
+        <Package>xorg-video-nvidia-current</Package>
         <Package>xorg-video-nvidia-current-32bit</Package>
+        <!-- dirty fix-->
+        <Package>mkinitcpio</Package>
+        <Package>busybox-mkinitcpio</Package>
         <!-- Reduce players-->
         <Package>vlc-lua</Package>
         <Package>vlc</Package>
