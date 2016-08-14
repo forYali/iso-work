@@ -25,9 +25,13 @@
         <!-- dirty fix-->
         <Package>mkinitcpio</Package>
         <Package>busybox-mkinitcpio</Package>
-        <!-- Reduce players-->
+        <Package>Calamares</Package>
+        <Package>calamares-theme-pisilinux</Package>
+        <!-- Reduce players, video -->
         <Package>vlc-lua</Package>
         <Package>vlc</Package>
         <Package>smplayer</Package>
+        <Package>obs-studio</Package>
+        <Package>obs-studio-devel</Package>
     </Obsoletes>
 </PISI>
