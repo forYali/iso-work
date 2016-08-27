@@ -34,5 +34,6 @@
         <Package>kaffeine</Package>
         <Package>obs-studio</Package>
         <Package>obs-studio-devel</Package>
+        <Package>qmplay2</Package>
     </Obsoletes>
 </PISI>
