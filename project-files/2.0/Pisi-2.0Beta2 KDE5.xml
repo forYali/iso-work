@@ -189,6 +189,7 @@
                 <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
                 <SelectedPackage>poppler-glib</SelectedPackage>
+                <SelectedPackage>powertop</SelectedPackage>
                 <SelectedPackage>print-manager</SelectedPackage>
                 <SelectedPackage>pulseaudio</SelectedPackage>
                 <SelectedPackage>python3-sip</SelectedPackage>
@@ -870,6 +871,7 @@
                 <Package>popt</Package>
                 <Package>postgresql-lib</Package>
                 <Package>powerdevil</Package>
+                <Package>powertop</Package>
                 <Package>ppp</Package>
                 <Package>print-manager</Package>
                 <Package>prison-qt5</Package>
