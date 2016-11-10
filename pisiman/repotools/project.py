@@ -28,8 +28,8 @@ def _(x):
 PYTHON_VER = ".".join(platform.python_version_tuple()[0:2])
 
 QT_PREFIX = "usr"
-if os.path.exists("/usr/qt/4/lib/libQtCore.so"):
-    QT_PREFIX += "/qt/4"
+if os.path.exists("/usr/lib/qt5/libQtCore.so"):
+    QT_PREFIX += "/lib/qt5"
 
 default_live_exclude_list = """
 lib/rcscripts/
@@ -64,17 +64,17 @@ usr/lib/python%s/idlelib/
 usr/lib/python%s/bsddb/test/
 usr/lib/python%s/lib-old/
 usr/lib/python%s/test/
-usr/lib/python%s/site-packages/PyQt4/QtAssistant.so
-usr/lib/python%s/site-packages/PyQt4/QtDesigner.so
-usr/lib/python%s/site-packages/PyQt4/QtHelp.so
-usr/lib/python%s/site-packages/PyQt4/QtNetwork.so
-usr/lib/python%s/site-packages/PyQt4/QtOpenGL.so
-usr/lib/python%s/site-packages/PyQt4/QtScript.so
-usr/lib/python%s/site-packages/PyQt4/QtSql.so
-usr/lib/python%s/site-packages/PyQt4/QtTest.so
-usr/lib/python%s/site-packages/PyQt4/QtWebKit.so
-usr/lib/python%s/site-packages/PyQt4/QtXml.so
-usr/lib/python%s/site-packages/PyQt4/QtXmlPatterns.so
+usr/lib/python%s/site-packages/PyQt5/QtAssistant.so
+usr/lib/python%s/site-packages/PyQt5/QtDesigner.so
+usr/lib/python%s/site-packages/PyQt5/QtHelp.so
+usr/lib/python%s/site-packages/PyQt5/QtNetwork.so
+usr/lib/python%s/site-packages/PyQt5/QtOpenGL.so
+usr/lib/python%s/site-packages/PyQt5/QtScript.so
+usr/lib/python%s/site-packages/PyQt5/QtSql.so
+usr/lib/python%s/site-packages/PyQt5/QtTest.so
+usr/lib/python%s/site-packages/PyQt5/QtWebKit.so
+usr/lib/python%s/site-packages/PyQt5/QtXml.so
+usr/lib/python%s/site-packages/PyQt5/QtXmlPatterns.so
 usr/lib/klibc/include/
 usr/lib/syslinux/
 usr/share/aclocal/
@@ -246,6 +246,7 @@ class Project:
                     selectedPackages.append(tag.firstChild().data())
                 for tag in node.tags("Package"):
                     allPackages.append(tag.firstChild().data())
+                #print repoURI, "\n", selectedComponents, "\n", selectedPackages, "\n", allPackages
                 return (repoURI, selectedComponents, selectedPackages, allPackages)
             return None
 
@@ -306,8 +307,7 @@ class Project:
         else:
             packageSelectionTag = doc.getTag("PackageSelection")
             if packageSelectionTag:
-                self.repo_uri, self.selected_components, \
-                self.selected_packages, self.all_packages= __packageSelection(packageSelectionTag)
+                self.repo_uri, self.selected_components, self.selected_packages, self.all_packages= __packageSelection(packageSelectionTag)
 
             self.selected_components.sort()
             self.selected_packages.sort()
@@ -328,6 +328,10 @@ class Project:
             self.selected_install_image_components.sort()
             self.selected_install_image_packages.sort()
             self.all_install_image_packages.sort()
+            self.selected_components += self.selected_install_image_components
+            self.selected_components.sort()
+            self.selected_packages += self.selected_install_image_packages
+            self.selected_packages.sort()
 
     def save(self, filename=None):
         # Save the data into filename as pardusman project file
@@ -503,7 +507,7 @@ class Project:
 
                 packages.sort()
                 collection.packages.allPackages = packages
-            #self.all_packages.extend(packages)
+            self.all_packages.extend(packages)
         else:
             for component in self.selected_components:
                 if component not in repo.components:
@@ -538,6 +542,7 @@ class Project:
 
         packages.sort()
         self.all_install_image_packages = packages
+        
 
     def image_repo_dir(self, clean=False):
         return self._get_dir("image_repo", clean)

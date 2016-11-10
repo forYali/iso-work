@@ -1,0 +1,39 @@
+<PISI>
+    <SourceName>PisiLinux</SourceName>
+    <Version>2.0</Version>
+    <Description xml:lang="tr">PisiLinux 2.0 Deposu</Description>
+    <Description xml:lang="en">PisiLinux 2.0 Repository</Description>
+    <Description xml:lang="es">PisiLinux 2.0 Repositorio</Description>
+    <Description xml:lang="nl">PisiLinux 2.0 Opslagplaats</Description>
+    <Type>Core</Type>
+    <BinaryName>PisiLinux</BinaryName>
+    <Obsoletes>
+        <!--glibc-32bit merge in glibc-->
+           <Package>glibc-32bit</Package>
+        <!--for yali -->
+        <Package>xorg-video-nvidia304</Package>
+        <Package>xorg-video-nvidia340</Package>
+        <Package>xorg-video-nvidia340-32bit</Package>
+        <Package>xorg-video-nvidia304-32bit</Package>
+        <Package>module-nvidia-current</Package>
+        <Package>module-nvidia304</Package>
+        <Package>module-nvidia340</Package>
+        <Package>nvidia-settings</Package>
+        <Package>nvidia-xconfig</Package>
+        <Package>xorg-video-nvidia-current</Package>
+        <Package>xorg-video-nvidia-current-32bit</Package>
+        <!-- dirty fix-->
+        <Package>mkinitcpio</Package>
+        <Package>busybox-mkinitcpio</Package>
+        <Package>Calamares</Package>
+        <Package>calamares-theme-pisilinux</Package>
+        <!-- Reduce players, video -->
+        <Package>vlc-lua</Package>
+        <Package>vlc</Package>
+        <Package>smplayer</Package>
+        <Package>kaffeine</Package>
+        <Package>obs-studio</Package>
+        <Package>obs-studio-devel</Package>
+        <Package>qmplay2</Package>
+    </Obsoletes>
+</PISI>
