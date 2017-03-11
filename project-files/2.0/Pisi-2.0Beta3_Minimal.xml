@@ -425,6 +425,7 @@
         <Package>fftw3</Package>
         <Package>file</Package>
         <Package>findutils</Package>
+        <Package>firebird-client</Package>
         <Package>flac</Package>
         <Package>fontconfig</Package>
         <Package>freeglut</Package>
@@ -506,6 +507,7 @@
         <Package>libXext</Package>
         <Package>libXfixes</Package>
         <Package>libXfont</Package>
+        <Package>libXfont2</Package>
         <Package>libXft</Package>
         <Package>libXi</Package>
         <Package>libXinerama</Package>
@@ -578,6 +580,7 @@
         <Package>libpcre</Package>
         <Package>libpipeline</Package>
         <Package>libpng</Package>
+        <Package>libproxy</Package>
         <Package>libqmi</Package>
         <Package>libquadmath</Package>
         <Package>libraw1394</Package>
@@ -696,7 +699,7 @@
         <Package>qt5-base</Package>
         <Package>qt5-connectivity</Package>
         <Package>qt5-declarative</Package>
-        <Package>qt5-enginio</Package>
+        <Package>qt5-designer</Package>
         <Package>qt5-location</Package>
         <Package>qt5-multimedia</Package>
         <Package>qt5-sensors</Package>
