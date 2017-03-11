@@ -9,7 +9,17 @@
     <BinaryName>PisiLinux</BinaryName>
     <Obsoletes>
         <!--glibc-32bit merge in glibc-->
-           <Package>glibc-32bit</Package>
+        <Package>glibc-32bit</Package>
+        <Package>libfreebob</Package>
+        <Package>libfreebob-devel</Package>
+        <!-- separeted, replaced packages-->
+        <!--Package>kdgantt2</Package>
+        <Package>prison-qt5</Package>
+        <Package>prison-qt5-devel</Package>
+        <Package>gpgmepp</Package-->
+        <Package>kde-baseapps</Package>
+        <Package>kde-baseapps-devel</Package>
+        <Package>xorg-video-modesetting</Package>
         <!--for yali -->
         <Package>xorg-video-nvidia304</Package>
         <Package>xorg-video-nvidia340</Package>
