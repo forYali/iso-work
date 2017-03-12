@@ -45,5 +45,6 @@
         <Package>obs-studio</Package>
         <Package>obs-studio-devel</Package>
         <Package>qmplay2</Package>
+        <Package>plasma-mediacenter</Package>
     </Obsoletes>
 </PISI>
