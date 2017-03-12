@@ -117,6 +117,7 @@
                 <SelectedPackage>kaptan</SelectedPackage>
                 <SelectedPackage>kate</SelectedPackage>
                 <SelectedPackage>kernel-headers</SelectedPackage>
+                <SelectedPackage>kfind</SelectedPackage>
                 <SelectedPackage>kio-extras</SelectedPackage>
                 <SelectedPackage>konqueror</SelectedPackage>
                 <SelectedPackage>konsole</SelectedPackage>
@@ -423,6 +424,7 @@
                 <Package>kernel-headers</Package>
                 <Package>keyutils</Package>
                 <Package>kfilemetadata</Package>
+                <Package>kfind</Package>
                 <Package>kgamma5</Package>
                 <Package>kglobalaccel</Package>
                 <Package>kguiaddons</Package>
