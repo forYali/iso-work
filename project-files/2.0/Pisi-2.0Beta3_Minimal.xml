@@ -345,6 +345,7 @@
         <SelectedComponent>x11.driver</SelectedComponent>
         <SelectedPackage>bash-completion</SelectedPackage>
         <SelectedPackage>device-mapper-static</SelectedPackage>
+        <SelectedPackage>dmraid</SelectedPackage>
         <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
         <SelectedPackage>libxkbcommon</SelectedPackage>
         <SelectedPackage>lvm2-static</SelectedPackage>
@@ -356,6 +357,8 @@
         <SelectedPackage>panda</SelectedPackage>
         <SelectedPackage>pisilinux-desktop-services</SelectedPackage>
         <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
+        <SelectedPackage>python-argparse</SelectedPackage>
+        <SelectedPackage>python-decorator</SelectedPackage>
         <SelectedPackage>xdm</SelectedPackage>
         <SelectedPackage>xkeyboard-config</SelectedPackage>
         <SelectedPackage>zorg</SelectedPackage>
@@ -687,6 +690,7 @@
         <Package>pypolkit</Package>
         <Package>pyqtermwidget5</Package>
         <Package>python</Package>
+        <Package>python-argparse</Package>
         <Package>python-decorator</Package>
         <Package>python-psutil</Package>
         <Package>python-pyaspects</Package>
@@ -723,6 +727,7 @@
         <Package>snappy</Package>
         <Package>soundtouch</Package>
         <Package>speex</Package>
+        <Package>speexdsp</Package>
         <Package>spidermonkey</Package>
         <Package>sqlite</Package>
         <Package>sysfsutils</Package>
