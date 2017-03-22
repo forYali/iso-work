@@ -187,7 +187,6 @@
                 <Package>iptables</Package>
                 <Package>irqbalance</Package>
                 <Package>iso-codes</Package>
-                <Package>jansson</Package>
                 <Package>json-c</Package>
                 <Package>kbd</Package>
                 <Package>kernel</Package>
@@ -486,7 +485,6 @@
         <Package>iproute2</Package>
         <Package>iptables</Package>
         <Package>jack-audio-connection-kit</Package>
-        <Package>jansson</Package>
         <Package>jasper</Package>
         <Package>jbigkit</Package>
         <Package>json-c</Package>
