@@ -57,7 +57,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.terminal = QTermWidget.QTermWidget()
         self.terminal.setHistorySize(-1)
         self.terminal.setScrollBarPosition(2)
-        self.terminal.setColorScheme(0)
+        #self.terminal.setColorScheme(0)
         #self.terminal.setTerminalFont(QFont('Terminus'))
         self.terminalLayout.addWidget(self.terminal)
         self.terminal.show()

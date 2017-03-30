@@ -64,7 +64,7 @@
                     <Description>Temel Sistem</Description>
                 </Translation>
             </Translations>
-            <PackageSelection repo_uri="file:///home/ertugrul/Works/repo4yali/pisi-index.xml">
+            <PackageSelection repo_uri="file:///home/ertugrul/Works/repo2yali/pisi-index.xml">
                 <SelectedComponent>hardware.firmware</SelectedComponent>
                 <SelectedComponent>system.base</SelectedComponent>
                 <SelectedPackage>NetworkManager</SelectedPackage>
