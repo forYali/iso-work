@@ -358,6 +358,7 @@
         <SelectedPackage>pisilinux-python-xorg</SelectedPackage>
         <SelectedPackage>python-argparse</SelectedPackage>
         <SelectedPackage>python-decorator</SelectedPackage>
+        <SelectedPackage>squashfs-tools</SelectedPackage>
         <SelectedPackage>xdm</SelectedPackage>
         <SelectedPackage>xkeyboard-config</SelectedPackage>
         <SelectedPackage>zorg</SelectedPackage>
@@ -381,7 +382,6 @@
         <Package>b43-fwcutter</Package>
         <Package>baselayout</Package>
         <Package>bash</Package>
-        <Package>bash-completion</Package>
         <Package>bc</Package>
         <Package>biosdevname</Package>
         <Package>bluez</Package>
@@ -439,7 +439,6 @@
         <Package>gdk-pixbuf</Package>
         <Package>geoclue</Package>
         <Package>gettext</Package>
-        <Package>gfxtheme-pisilinux-install</Package>
         <Package>giflib</Package>
         <Package>glib-networking</Package>
         <Package>glib2</Package>
@@ -630,15 +629,12 @@
         <Package>man-pages</Package>
         <Package>mdadm</Package>
         <Package>mdadm-static</Package>
-        <Package>memtest86</Package>
         <Package>mesa</Package>
         <Package>mingetty</Package>
         <Package>miscfiles</Package>
         <Package>mit-kerberos</Package>
         <Package>mjpegtools</Package>
-        <Package>mkinitramfs</Package>
         <Package>mobile-broadband-provider-info</Package>
-        <Package>module-virtualbox</Package>
         <Package>module-virtualbox-guest</Package>
         <Package>module-virtualbox-guest-userspace</Package>
         <Package>module-virtualbox-userspace</Package>
@@ -688,7 +684,6 @@
         <Package>pypolkit</Package>
         <Package>pyqtermwidget5</Package>
         <Package>python</Package>
-        <Package>python-argparse</Package>
         <Package>python-decorator</Package>
         <Package>python-psutil</Package>
         <Package>python-pyaspects</Package>
@@ -761,10 +756,8 @@
         <Package>xcb-util-renderutil</Package>
         <Package>xcb-util-wm</Package>
         <Package>xdg-utils</Package>
-        <Package>xdm</Package>
         <Package>xfsprogs</Package>
         <Package>xinit</Package>
-        <Package>xkeyboard-config</Package>
         <Package>xorg-app</Package>
         <Package>xorg-input-acecad</Package>
         <Package>xorg-input-aiptek</Package>
