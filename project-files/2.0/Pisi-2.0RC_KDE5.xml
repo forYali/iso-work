@@ -183,7 +183,6 @@
                 <SelectedPackage>pulseaudio</SelectedPackage>
                 <SelectedPackage>python3-sip</SelectedPackage>
                 <SelectedPackage>qt5-phonon-backend-gstreamer</SelectedPackage>
-                <SelectedPackage>qupzilla</SelectedPackage>
                 <SelectedPackage>spectacle</SelectedPackage>
                 <SelectedPackage>speexdsp</SelectedPackage>
                 <SelectedPackage>startup-notification</SelectedPackage>
@@ -897,7 +896,6 @@
                 <Package>qt5-phonon</Package>
                 <Package>qt5-phonon-backend-gstreamer</Package>
                 <Package>qt5-qdbusviewer</Package>
-                <Package>qt5-quick1</Package>
                 <Package>qt5-quickcontrols</Package>
                 <Package>qt5-quickcontrols2</Package>
                 <Package>qt5-script</Package>
@@ -920,7 +918,6 @@
                 <Package>qt5-websockets</Package>
                 <Package>qt5-x11extras</Package>
                 <Package>qt5-xmlpatterns</Package>
-                <Package>qupzilla</Package>
                 <Package>readline</Package>
                 <Package>recode</Package>
                 <Package>rrdtool</Package>
@@ -1027,7 +1024,6 @@
                 <Package>xmlto</Package>
                 <Package>xorg-app</Package>
                 <Package>xorg-input-acecad</Package>
-                <Package>xorg-input-aiptek</Package>
                 <Package>xorg-input-elographics</Package>
                 <Package>xorg-input-evdev</Package>
                 <Package>xorg-input-joystick</Package>
@@ -1517,7 +1513,6 @@
         <Package>xkeyboard-config</Package>
         <Package>xorg-app</Package>
         <Package>xorg-input-acecad</Package>
-        <Package>xorg-input-aiptek</Package>
         <Package>xorg-input-elographics</Package>
         <Package>xorg-input-evdev</Package>
         <Package>xorg-input-joystick</Package>
