@@ -20,6 +20,13 @@
         <Package>kde-baseapps</Package>
         <Package>kde-baseapps-devel</Package>
         <Package>xorg-video-modesetting</Package>
+        <!--no longer avilable, replaced qt5-quickcontrols2-->
+        <Package>qt5-quick1</Package>
+        <Package>qt5-quick1-devel</Package>
+        <Package>gstreamer-vaapi</Package>
+        <Package>xorg-input-aiptek</Package>
+        <Package>xorg-video-modesetting</Package>
+        <Package>xorriso</Package>
         <!--for yali -->
         <Package>xorg-video-nvidia304</Package>
         <Package>xorg-video-nvidia340</Package>
