@@ -199,7 +199,6 @@
                 <Package>iptables</Package>
                 <Package>irqbalance</Package>
                 <Package>iso-codes</Package>
-                <Package>jansson</Package>
                 <Package>json-c</Package>
                 <Package>kbd</Package>
                 <Package>kernel</Package>

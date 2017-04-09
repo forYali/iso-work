@@ -1,6 +1,6 @@
 <PardusmanProject type="live" compression="xz">
     <Title>Pisi Linux 2.0Beta3 KDE5 x86_64 Live</Title>
-    <WorkDir>/home/ertugrul/Works/isowork</WorkDir>
+    <WorkDir>/home/ertugrul/Work_yali</WorkDir>
     <ReleaseFiles>/home/ertugrul/Works/iso-work/release-files/pisilinux</ReleaseFiles>
     <PackageCollections>
         <PackageCollection default="True">
@@ -64,7 +64,7 @@
                     <Description>Temel Sistem</Description>
                 </Translation>
             </Translations>
-            <PackageSelection repo_uri="file:///home/ertugrul/Works/repo4yali/pisi-index.xml.xz">
+            <PackageSelection repo_uri="file:///home/ertugrul/Works/repo2yali/pisi-index.xml.xz">
                 <SelectedComponent>desktop.kde.framework</SelectedComponent>
                 <SelectedComponent>desktop.kde.plasma</SelectedComponent>
                 <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
@@ -90,11 +90,37 @@
                 <SelectedPackage>dolphin</SelectedPackage>
                 <SelectedPackage>dragonplayer</SelectedPackage>
                 <SelectedPackage>droid-fonts</SelectedPackage>
+                <SelectedPackage>firefox</SelectedPackage>
+                <SelectedPackage>firefox-lang-de</SelectedPackage>
+                <SelectedPackage>firefox-lang-en-GB</SelectedPackage>
+                <SelectedPackage>firefox-lang-en-US</SelectedPackage>
+                <SelectedPackage>firefox-lang-es-ES</SelectedPackage>
+                <SelectedPackage>firefox-lang-fr</SelectedPackage>
+                <SelectedPackage>firefox-lang-hr</SelectedPackage>
+                <SelectedPackage>firefox-lang-hu</SelectedPackage>
+                <SelectedPackage>firefox-lang-it</SelectedPackage>
+                <SelectedPackage>firefox-lang-nl</SelectedPackage>
+                <SelectedPackage>firefox-lang-pl</SelectedPackage>
+                <SelectedPackage>firefox-lang-pt-BR</SelectedPackage>
+                <SelectedPackage>firefox-lang-pt-PT</SelectedPackage>
+                <SelectedPackage>firefox-lang-ru</SelectedPackage>
+                <SelectedPackage>firefox-lang-tr</SelectedPackage>
+                <SelectedPackage>firefox-lang-uk</SelectedPackage>
                 <SelectedPackage>font-util</SelectedPackage>
                 <SelectedPackage>foomatic-db</SelectedPackage>
                 <SelectedPackage>foomatic-db-engine</SelectedPackage>
                 <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
                 <SelectedPackage>ghostscript</SelectedPackage>
+                <SelectedPackage>gimp</SelectedPackage>
+                <SelectedPackage>gimp-i18n-de</SelectedPackage>
+                <SelectedPackage>gimp-i18n-en_GB</SelectedPackage>
+                <SelectedPackage>gimp-i18n-es</SelectedPackage>
+                <SelectedPackage>gimp-i18n-fr</SelectedPackage>
+                <SelectedPackage>gimp-i18n-hu</SelectedPackage>
+                <SelectedPackage>gimp-i18n-pt</SelectedPackage>
+                <SelectedPackage>gimp-i18n-pt_BR</SelectedPackage>
+                <SelectedPackage>gimp-i18n-ru</SelectedPackage>
+                <SelectedPackage>gimp-i18n-tr</SelectedPackage>
                 <SelectedPackage>glibc-locales-de</SelectedPackage>
                 <SelectedPackage>glibc-locales-en</SelectedPackage>
                 <SelectedPackage>glibc-locales-es</SelectedPackage>
@@ -135,7 +161,6 @@
                 <SelectedPackage>mdadm-static</SelectedPackage>
                 <SelectedPackage>memtest86</SelectedPackage>
                 <SelectedPackage>mkinitramfs</SelectedPackage>
-                <SelectedPackage>mkinitramfs</SelectedPackage>
                 <SelectedPackage>module-bbswitch</SelectedPackage>
                 <SelectedPackage>module-broadcom-wl</SelectedPackage>
                 <SelectedPackage>module-virtualbox</SelectedPackage>
@@ -153,6 +178,7 @@
                 <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
                 <SelectedPackage>poppler-glib</SelectedPackage>
+                <SelectedPackage>powertop</SelectedPackage>
                 <SelectedPackage>powertop</SelectedPackage>
                 <SelectedPackage>print-manager</SelectedPackage>
                 <SelectedPackage>pulseaudio</SelectedPackage>
@@ -205,6 +231,7 @@
                 <Package>avahi-libs</Package>
                 <Package>b43-firmware</Package>
                 <Package>b43-fwcutter</Package>
+                <Package>babl</Package>
                 <Package>baloo</Package>
                 <Package>baloo-widgets</Package>
                 <Package>baselayout</Package>
@@ -278,6 +305,7 @@
                 <Package>efivar</Package>
                 <Package>elfutils</Package>
                 <Package>enca</Package>
+                <Package>enchant</Package>
                 <Package>enscript</Package>
                 <Package>espeak</Package>
                 <Package>eudev</Package>
@@ -290,6 +318,22 @@
                 <Package>file</Package>
                 <Package>findutils</Package>
                 <Package>firebird-client</Package>
+                <Package>firefox</Package>
+                <Package>firefox-lang-de</Package>
+                <Package>firefox-lang-en-GB</Package>
+                <Package>firefox-lang-en-US</Package>
+                <Package>firefox-lang-es-ES</Package>
+                <Package>firefox-lang-fr</Package>
+                <Package>firefox-lang-hr</Package>
+                <Package>firefox-lang-hu</Package>
+                <Package>firefox-lang-it</Package>
+                <Package>firefox-lang-nl</Package>
+                <Package>firefox-lang-pl</Package>
+                <Package>firefox-lang-pt-BR</Package>
+                <Package>firefox-lang-pt-PT</Package>
+                <Package>firefox-lang-ru</Package>
+                <Package>firefox-lang-tr</Package>
+                <Package>firefox-lang-uk</Package>
                 <Package>flac</Package>
                 <Package>flite</Package>
                 <Package>fluidsynth</Package>
@@ -309,11 +353,22 @@
                 <Package>gdb</Package>
                 <Package>gdbm</Package>
                 <Package>gdk-pixbuf</Package>
+                <Package>gegl02</Package>
                 <Package>geoclue</Package>
                 <Package>gettext</Package>
                 <Package>gfxtheme-pisilinux-install</Package>
                 <Package>ghostscript</Package>
                 <Package>giflib</Package>
+                <Package>gimp</Package>
+                <Package>gimp-i18n-de</Package>
+                <Package>gimp-i18n-en_GB</Package>
+                <Package>gimp-i18n-es</Package>
+                <Package>gimp-i18n-fr</Package>
+                <Package>gimp-i18n-hu</Package>
+                <Package>gimp-i18n-pt</Package>
+                <Package>gimp-i18n-pt_BR</Package>
+                <Package>gimp-i18n-ru</Package>
+                <Package>gimp-i18n-tr</Package>
                 <Package>glew</Package>
                 <Package>glib-networking</Package>
                 <Package>glib2</Package>
@@ -373,6 +428,7 @@
                 <Package>ibus</Package>
                 <Package>icon-theme-adwaita</Package>
                 <Package>icon-theme-hicolor</Package>
+                <Package>iconcan</Package>
                 <Package>icu4c</Package>
                 <Package>ilmbase</Package>
                 <Package>imlib2</Package>
@@ -383,7 +439,6 @@
                 <Package>irqbalance</Package>
                 <Package>iso-codes</Package>
                 <Package>jack-audio-connection-kit</Package>
-                <Package>jansson</Package>
                 <Package>jasper</Package>
                 <Package>jbigkit</Package>
                 <Package>json-c</Package>
@@ -641,6 +696,7 @@
                 <Package>libsoup</Package>
                 <Package>libsoup-gnome</Package>
                 <Package>libspectre</Package>
+                <Package>libspiro</Package>
                 <Package>libssh</Package>
                 <Package>libssh2</Package>
                 <Package>libtalloc</Package>
@@ -669,6 +725,7 @@
                 <Package>libvorbis</Package>
                 <Package>libvpx</Package>
                 <Package>libwacom</Package>
+                <Package>libwmf</Package>
                 <Package>libx86</Package>
                 <Package>libxcb</Package>
                 <Package>libxkbcommon</Package>
@@ -954,6 +1011,7 @@
                 <Package>wayland-cursor</Package>
                 <Package>wayland-protocols</Package>
                 <Package>wayland-server</Package>
+                <Package>webkit-gtk2</Package>
                 <Package>webp</Package>
                 <Package>wget</Package>
                 <Package>which</Package>
