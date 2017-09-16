@@ -75,6 +75,7 @@
                 <SelectedComponent>x11.library</SelectedComponent>
                 <SelectedComponent>x11.server</SelectedComponent>
                 <SelectedPackage>NetworkManager</SelectedPackage>
+                <SelectedPackage>acpid</SelectedPackage>
                 <SelectedPackage>alsa-tools</SelectedPackage>
                 <SelectedPackage>alsa-utils</SelectedPackage>
                 <SelectedPackage>ark</SelectedPackage>
@@ -210,6 +211,7 @@
                 <Package>aalib</Package>
                 <Package>accountsservice</Package>
                 <Package>acl</Package>
+                <Package>acpid</Package>
                 <Package>alsa-firmware</Package>
                 <Package>alsa-lib</Package>
                 <Package>alsa-tools</Package>
@@ -425,6 +427,7 @@
                 <Package>iconcan</Package>
                 <Package>icu4c</Package>
                 <Package>ilmbase</Package>
+                <Package>imagemagick</Package>
                 <Package>imlib2</Package>
                 <Package>iniparser</Package>
                 <Package>iproute2</Package>
@@ -488,6 +491,7 @@
                 <Package>kinit</Package>
                 <Package>kio</Package>
                 <Package>kio-extras</Package>
+                <Package>kirigami</Package>
                 <Package>kitemmodels</Package>
                 <Package>kitemviews</Package>
                 <Package>kjobwidgets</Package>
@@ -645,6 +649,7 @@
                 <Package>libkscreen</Package>
                 <Package>libksysguard</Package>
                 <Package>liblogging</Package>
+                <Package>liblqr</Package>
                 <Package>libmad</Package>
                 <Package>libmatroska</Package>
                 <Package>libmbim</Package>
@@ -706,6 +711,7 @@
                 <Package>libupnp</Package>
                 <Package>libusb</Package>
                 <Package>libusb-compat</Package>
+                <Package>libusbmuxd</Package>
                 <Package>libuser</Package>
                 <Package>libutil-linux</Package>
                 <Package>libv4l</Package>
@@ -978,7 +984,6 @@
                 <Package>unzip</Package>
                 <Package>upower</Package>
                 <Package>urlgrabber</Package>
-                <Package>usbmuxd</Package>
                 <Package>usbutils</Package>
                 <Package>user-manager</Package>
                 <Package>utempter</Package>
@@ -1015,6 +1020,7 @@
                 <Package>xcb-util-keysyms</Package>
                 <Package>xcb-util-renderutil</Package>
                 <Package>xcb-util-wm</Package>
+                <Package>xdg-desktop-portal-kde</Package>
                 <Package>xdg-user-dirs</Package>
                 <Package>xdg-utils</Package>
                 <Package>xfsprogs</Package>
@@ -1042,6 +1048,7 @@
                 <Package>xorg-server-xvfb</Package>
                 <Package>xorg-server-xwayland</Package>
                 <Package>xorg-util</Package>
+                <Package>xorg-video-amdgpu</Package>
                 <Package>xorg-video-apm</Package>
                 <Package>xorg-video-cirrus</Package>
                 <Package>xorg-video-dummy</Package>
@@ -1524,6 +1531,7 @@
         <Package>xorg-input-void</Package>
         <Package>xorg-input-wacom</Package>
         <Package>xorg-server</Package>
+        <Package>xorg-video-amdgpu</Package>
         <Package>xorg-video-apm</Package>
         <Package>xorg-video-cirrus</Package>
         <Package>xorg-video-dummy</Package>
