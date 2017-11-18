@@ -157,6 +157,7 @@
                 <SelectedPackage>llvm</SelectedPackage>
                 <SelectedPackage>logrotate</SelectedPackage>
                 <SelectedPackage>lvm2-static</SelectedPackage>
+                <SelectedPackage>lxdm</SelectedPackage>
                 <SelectedPackage>mc</SelectedPackage>
                 <SelectedPackage>mdadm</SelectedPackage>
                 <SelectedPackage>mdadm-static</SelectedPackage>
@@ -295,6 +296,7 @@
                 <Package>dolphin</Package>
                 <Package>dosfstools</Package>
                 <Package>dotconf</Package>
+                <Package>doxygen</Package>
                 <Package>dragonplayer</Package>
                 <Package>drkonqi</Package>
                 <Package>droid-fonts</Package>
@@ -302,6 +304,7 @@
                 <Package>ebook-tools</Package>
                 <Package>elfutils</Package>
                 <Package>enca</Package>
+                <Package>encfs</Package>
                 <Package>enchant</Package>
                 <Package>enscript</Package>
                 <Package>espeak</Package>
@@ -440,6 +443,7 @@
                 <Package>jbigkit</Package>
                 <Package>json-c</Package>
                 <Package>json-glib</Package>
+                <Package>kaccounts-integration</Package>
                 <Package>kactivities</Package>
                 <Package>kactivities-stats</Package>
                 <Package>kactivitymanagerd</Package>
@@ -569,6 +573,8 @@
                 <Package>libXxf86misc</Package>
                 <Package>libXxf86miscproto</Package>
                 <Package>libXxf86vm</Package>
+                <Package>libaccounts-glib</Package>
+                <Package>libaccounts-qt5</Package>
                 <Package>libaio</Package>
                 <Package>libao</Package>
                 <Package>libarchive</Package>
@@ -749,6 +755,7 @@
                 <Package>lua</Package>
                 <Package>lvm2</Package>
                 <Package>lvm2-static</Package>
+                <Package>lxdm</Package>
                 <Package>lzo</Package>
                 <Package>mailcap</Package>
                 <Package>man-db</Package>
@@ -835,6 +842,7 @@
                 <Package>plasma-nm</Package>
                 <Package>plasma-pa</Package>
                 <Package>plasma-sdk</Package>
+                <Package>plasma-vault</Package>
                 <Package>plasma-workspace</Package>
                 <Package>plasma-workspace-wallpapers</Package>
                 <Package>plymouth</Package>
@@ -868,6 +876,7 @@
                 <Package>psmisc</Package>
                 <Package>pulseaudio</Package>
                 <Package>pulseaudio-libs</Package>
+                <Package>purpose</Package>
                 <Package>pycurl</Package>
                 <Package>pypolkit</Package>
                 <Package>python</Package>
@@ -935,14 +944,13 @@
                 <Package>sbc</Package>
                 <Package>schroedinger</Package>
                 <Package>scim-libs</Package>
-                <Package>sddm</Package>
-                <Package>sddm-kcm</Package>
                 <Package>sdl-image</Package>
                 <Package>sed</Package>
                 <Package>sg3_utils</Package>
                 <Package>sgml-common</Package>
                 <Package>shadow</Package>
                 <Package>shared-mime-info</Package>
+                <Package>signon</Package>
                 <Package>slang</Package>
                 <Package>smpeg</Package>
                 <Package>smtube</Package>
@@ -976,6 +984,7 @@
                 <Package>tiff</Package>
                 <Package>time</Package>
                 <Package>timezone</Package>
+                <Package>tinyxml2</Package>
                 <Package>twolame</Package>
                 <Package>udisks2</Package>
                 <Package>unicode-ucd</Package>
