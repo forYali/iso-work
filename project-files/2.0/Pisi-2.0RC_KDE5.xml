@@ -176,6 +176,7 @@
                 <SelectedPackage>okular</SelectedPackage>
                 <SelectedPackage>openssh</SelectedPackage>
                 <SelectedPackage>oxygen</SelectedPackage>
+                <SelectedPackage>package-manager</SelectedPackage>
                 <SelectedPackage>parted</SelectedPackage>
                 <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
@@ -694,6 +695,7 @@
                 <Package>librsvg</Package>
                 <Package>libsamplerate</Package>
                 <Package>libsdl</Package>
+                <Package>libseccomp</Package>
                 <Package>libsecret</Package>
                 <Package>libshout</Package>
                 <Package>libsigc++</Package>
@@ -822,6 +824,7 @@
                 <Package>oxygen-fonts</Package>
                 <Package>oxygen-icons</Package>
                 <Package>p11-kit</Package>
+                <Package>package-manager</Package>
                 <Package>pam</Package>
                 <Package>pango</Package>
                 <Package>parted</Package>
@@ -832,6 +835,7 @@
                 <Package>piksemel</Package>
                 <Package>pinentry</Package>
                 <Package>pisi</Package>
+                <Package>pisilinux-desktop-services</Package>
                 <Package>pisilinux-python</Package>
                 <Package>pisilinux-python-xorg</Package>
                 <Package>pisilinux-theme-maia</Package>
@@ -885,12 +889,15 @@
                 <Package>python-psutil</Package>
                 <Package>python-pygobject3</Package>
                 <Package>python-pyliblzma</Package>
+                <Package>python-qt5</Package>
                 <Package>python-setuptools</Package>
+                <Package>python-sip</Package>
                 <Package>python-smbc</Package>
                 <Package>python3</Package>
                 <Package>python3-qt5</Package>
                 <Package>python3-sip</Package>
                 <Package>qca2-qt5</Package>
+                <Package>qqc2-desktop-style</Package>
                 <Package>qrencode</Package>
                 <Package>qt5-accountsservice</Package>
                 <Package>qt5-assistant</Package>
@@ -1459,6 +1466,7 @@
         <Package>python-setuptools</Package>
         <Package>python-sip</Package>
         <Package>python-udev</Package>
+        <Package>python3</Package>
         <Package>qt5-base</Package>
         <Package>qt5-connectivity</Package>
         <Package>qt5-declarative</Package>
