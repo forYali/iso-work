@@ -96,6 +96,29 @@
         <Package>kde-l10n-wa</Package>
         <Package>kde-l10n-zh_CN</Package>
         <Package>kde-l10n-zh_TW</Package>
+        <Package>kde-l10n-ca-doc</Package>
+        <Package>kde-l10n-cs-doc</Package>
+        <Package>kde-l10n-da-doc</Package>
+        <Package>kde-l10n-de-doc</Package>
+        <Package>kde-l10n-el-doc</Package>
+        <Package>kde-l10n-en_GB-doc</Package>
+        <Package>kde-l10n-es-doc</Package>
+        <Package>kde-l10n-et-doc</Package>
+        <Package>kde-l10n-fr-doc</Package>
+        <Package>kde-l10n-gl-doc</Package>
+        <Package>kde-l10n-it-doc</Package>
+        <Package>kde-l10n-ja-doc</Package>
+        <Package>kde-l10n-lt-doc</Package>
+        <Package>kde-l10n-nb-doc</Package>
+        <Package>kde-l10n-nl-doc</Package>
+        <Package>kde-l10n-nn-doc</Package>
+        <Package>kde-l10n-pl-doc</Package>
+        <Package>kde-l10n-pt-doc</Package>
+        <Package>kde-l10n-pt_BR-doc</Package>
+        <Package>kde-l10n-ru-doc</Package>
+        <Package>kde-l10n-sv-doc</Package>
+        <Package>kde-l10n-tr-doc</Package>
+        <Package>kde-l10n-uk-doc</Package>
         <!--for yali -->
         <Package>xorg-video-nvidia304</Package>
         <Package>xorg-video-nvidia340</Package>
