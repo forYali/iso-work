@@ -406,20 +406,12 @@
                 <Package>grub2</Package>
                 <Package>gsm</Package>
                 <Package>gst-libav</Package>
-                <Package>gst-libav-next</Package>
                 <Package>gst-plugins-bad</Package>
-                <Package>gst-plugins-bad-next</Package>
                 <Package>gst-plugins-base</Package>
-                <Package>gst-plugins-base-next</Package>
                 <Package>gst-plugins-good</Package>
-                <Package>gst-plugins-good-next</Package>
                 <Package>gst-plugins-ugly</Package>
-                <Package>gst-plugins-ugly-next</Package>
                 <Package>gstreamer</Package>
-                <Package>gstreamer-next</Package>
-                <Package>gstreamer-vaapi-next</Package>
                 <Package>gstreamermm</Package>
-                <Package>gstreamermm-next</Package>
                 <Package>gtk2</Package>
                 <Package>gtk3</Package>
                 <Package>guile</Package>
