@@ -340,7 +340,6 @@
                 <Package>firefox-lang-uk</Package>
                 <Package>flac</Package>
                 <Package>flite</Package>
-                <Package>fltk</Package>
                 <Package>fluidsynth</Package>
                 <Package>font-util</Package>
                 <Package>fontconfig</Package>
@@ -395,7 +394,6 @@
                 <Package>glibmm</Package>
                 <Package>gmp</Package>
                 <Package>gnu-gs-fonts-std</Package>
-                <Package>gnupg</Package>
                 <Package>gnutls</Package>
                 <Package>gobject-introspection</Package>
                 <Package>gperf</Package>
@@ -661,7 +659,6 @@
                 <Package>libkipi</Package>
                 <Package>libkmod</Package>
                 <Package>libkms</Package>
-                <Package>libksba</Package>
                 <Package>libkscreen</Package>
                 <Package>libksysguard</Package>
                 <Package>liblogging</Package>
@@ -814,7 +811,6 @@
                 <Package>networkmanager-qt</Package>
                 <Package>newt</Package>
                 <Package>noto-fonts</Package>
-                <Package>npth</Package>
                 <Package>nspr</Package>
                 <Package>nss</Package>
                 <Package>nss-mdns</Package>
@@ -847,7 +843,6 @@
                 <Package>perl</Package>
                 <Package>perl-Locale-gettext</Package>
                 <Package>piksemel</Package>
-                <Package>pinentry</Package>
                 <Package>pisi</Package>
                 <Package>pisilinux-desktop-services</Package>
                 <Package>pisilinux-python</Package>
@@ -960,6 +955,7 @@
                 <Package>qt5-websockets</Package>
                 <Package>qt5-x11extras</Package>
                 <Package>qt5-xmlpatterns</Package>
+                <Package>re2</Package>
                 <Package>readline</Package>
                 <Package>recode</Package>
                 <Package>rrdtool</Package>
@@ -1318,7 +1314,6 @@
         <Package>libXvMC</Package>
         <Package>libXxf86dga</Package>
         <Package>libXxf86misc</Package>
-        <Package>libXxf86miscproto</Package>
         <Package>libXxf86vm</Package>
         <Package>libass</Package>
         <Package>libasyncns</Package>
@@ -1521,6 +1516,7 @@
         <Package>qt5-x11extras</Package>
         <Package>qt5-xmlpatterns</Package>
         <Package>qtermwidget5</Package>
+        <Package>re2</Package>
         <Package>readline</Package>
         <Package>reiserfsprogs</Package>
         <Package>rsyslog</Package>

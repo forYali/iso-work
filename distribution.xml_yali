@@ -54,20 +54,5 @@
         <Package>qmplay2</Package>
         <Package>qmplay2-devel</Package>
         <Package>plasma-mediacenter</Package>
-        <!-- next is obsoletes -->
-        <!--Package>gst-libav-next</Package>
-        <Package>gst-plugins-bad-next</Package>
-        <Package>gst-plugins-bad-next-devel</Package>
-        <Package>gst-plugins-base-next</Package>
-        <Package>gst-plugins-base-next-devel</Package>
-        <Package>gst-plugins-good-next</Package>
-        <Package>gst-plugins-ugly-next</Package>
-        <Package>gstreamer-next</Package>
-        <Package>gstreamer-next-devel</Package>
-        <Package>gstreamer-vaapi-next</Package>
-        <Package>gstreamer-vaapi-next-devel</Package>
-        <Package>gstreamermm-next</Package>
-        <Package>gstreamermm-next-devel</Package>
-        <Package>gstreamer-next-32bit</Package-->
     </Obsoletes>
 </PISI>
