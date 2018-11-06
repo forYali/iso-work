@@ -219,6 +219,9 @@
                 <Package>alsa-tools</Package>
                 <Package>alsa-utils</Package>
                 <Package>alternatives</Package>
+                <Package>appstream</Package>
+                <Package>appstream-glib</Package>
+                <Package>appstream-qt5</Package>
                 <Package>ark</Package>
                 <Package>aspell</Package>
                 <Package>at-spi2-atk</Package>
@@ -254,6 +257,7 @@
                 <Package>breeze-plymouth</Package>
                 <Package>breeze-style</Package>
                 <Package>breeze-wallpapers</Package>
+                <Package>bubblewrap</Package>
                 <Package>busybox</Package>
                 <Package>bzip2</Package>
                 <Package>ca-certificates</Package>
@@ -290,6 +294,7 @@
                 <Package>dhcpcd</Package>
                 <Package>diffutils</Package>
                 <Package>discover</Package>
+                <Package>discover-plugin-flatpak</Package>
                 <Package>disktype</Package>
                 <Package>djbfft</Package>
                 <Package>djvu</Package>
@@ -339,6 +344,7 @@
                 <Package>firefox-lang-tr</Package>
                 <Package>firefox-lang-uk</Package>
                 <Package>flac</Package>
+                <Package>flatpak</Package>
                 <Package>flite</Package>
                 <Package>fluidsynth</Package>
                 <Package>font-util</Package>
@@ -353,6 +359,7 @@
                 <Package>fuse</Package>
                 <Package>gawk</Package>
                 <Package>gc</Package>
+                <Package>gcap</Package>
                 <Package>gconf</Package>
                 <Package>gcr</Package>
                 <Package>gdb</Package>
@@ -822,6 +829,7 @@
                 <Package>openssl</Package>
                 <Package>orc</Package>
                 <Package>os-prober</Package>
+                <Package>ostree</Package>
                 <Package>oxygen</Package>
                 <Package>oxygen-fonts</Package>
                 <Package>oxygen-icons</Package>
@@ -885,6 +893,7 @@
                 <Package>pycurl</Package>
                 <Package>pypolkit</Package>
                 <Package>python</Package>
+                <Package>python-enum34</Package>
                 <Package>python-psutil</Package>
                 <Package>python-pyliblzma</Package>
                 <Package>python-qt5</Package>
@@ -1481,6 +1490,7 @@
         <Package>python</Package>
         <Package>python-argparse</Package>
         <Package>python-decorator</Package>
+        <Package>python-enum34</Package>
         <Package>python-psutil</Package>
         <Package>python-pyaspects</Package>
         <Package>python-pyblock</Package>
