@@ -253,18 +253,18 @@ def setup_isolinux(project):
     generate_isolinux_conf(project)
 
     # we don't use debug anymore for the sake of hybrid
-    copy(os.path.join(image_dir, "usr/lib/syslinux/isolinux.bin"), "%s/isolinux.bin" % dest)
-    copy(os.path.join(image_dir, "usr/lib/syslinux/hdt.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/isolinux.bin"), "%s/isolinux.bin" % dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/hdt.c32"), dest)
    
     #for boot new syslinux
-    copy(os.path.join(image_dir, "usr/lib/syslinux/ldlinux.c32"), dest)
-    copy(os.path.join(image_dir, "usr/lib/syslinux/libcom32.c32"), dest)
-    copy(os.path.join(image_dir, "usr/lib/syslinux/libutil.c32"), dest)
-    copy(os.path.join(image_dir, "usr/lib/syslinux/vesamenu.c32"), dest)
-    copy(os.path.join(image_dir, "usr/lib/syslinux/libmenu.c32"), dest)
-    copy(os.path.join(image_dir, "usr/lib/syslinux/libgpl.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/ldlinux.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/libcom32.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/libutil.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/vesamenu.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/libmenu.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/libgpl.c32"), dest)
     
-    copy(os.path.join(image_dir, "usr/lib/syslinux/gfxboot.c32"), dest)
+    copy(os.path.join(image_dir, "usr/lib/syslinux/bios/gfxboot.c32"), dest)
     copy(os.path.join(image_dir, "usr/share/misc/pci.ids"), dest)
 
     kernel_version = open(os.path.join(image_dir, "etc/kernel/kernel")).read()

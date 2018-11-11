@@ -64,7 +64,7 @@
                     <Description>Temel Sistem</Description>
                 </Translation>
             </Translations>
-            <PackageSelection repo_uri="file:///home/ertugerata/Works/repo2yali/2.0-Beta.1/pisi-index.xml.xz">
+            <PackageSelection repo_uri="file:///home/ertugerata/Works/Depo_saf/pisi-index.xml.xz">
                 <SelectedComponent>desktop.kde.framework</SelectedComponent>
                 <SelectedComponent>desktop.kde.plasma</SelectedComponent>
                 <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
