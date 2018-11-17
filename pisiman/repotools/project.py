@@ -146,9 +146,6 @@ default_live_glob_excludes = (
     ( "lib/", "*.la" ),
     ( "var/db/comar/", "__db*" ),
     ( "var/db/comar/", "log.*" ),
-    ( "var/lib/pisi/index", "*" ),
-    ( "var/lib/pisi/info", "*" ),
-    ( "var/lib/pisi/package", "*" ),
     ( "var/cache/pisi", "*.cache" ),
 )
 
