@@ -118,6 +118,7 @@
                 <SelectedPackage>xorg-input-kbd</SelectedPackage>
                 <SelectedPackage>xorg-input-mouse</SelectedPackage>
                 <SelectedPackage>xorg-input-vmmouse</SelectedPackage>
+                <SelectedPackage>xorg-video-fbdev</SelectedPackage>
                 <SelectedPackage>xorg-video-intel</SelectedPackage>
                 <SelectedPackage>xorg-video-vesa</SelectedPackage>
                 <SelectedPackage>xorg-video-vmware</SelectedPackage>
@@ -499,6 +500,7 @@
                 <Package>xorg-server-xnest</Package>
                 <Package>xorg-server-xvfb</Package>
                 <Package>xorg-server-xwayland</Package>
+                <Package>xorg-video-fbdev</Package>
                 <Package>xorg-video-intel</Package>
                 <Package>xorg-video-vesa</Package>
                 <Package>xorg-video-vmware</Package>
