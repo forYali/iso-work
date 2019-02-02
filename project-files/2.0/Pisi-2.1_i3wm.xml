@@ -476,6 +476,7 @@
                 <Package>wayland-server</Package>
                 <Package>wget</Package>
                 <Package>which</Package>
+                <Package>wireless-regdb</Package>
                 <Package>wireless-tools</Package>
                 <Package>wpa_supplicant</Package>
                 <Package>xcb-util</Package>
@@ -942,6 +943,7 @@
         <Package>wayland-server</Package>
         <Package>webp</Package>
         <Package>which</Package>
+        <Package>wireless-regdb</Package>
         <Package>wireless-tools</Package>
         <Package>x264</Package>
         <Package>x265</Package>
