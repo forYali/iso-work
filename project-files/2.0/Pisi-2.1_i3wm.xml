@@ -107,6 +107,7 @@
                 <SelectedPackage>ntfsprogs</SelectedPackage>
                 <SelectedPackage>openssh</SelectedPackage>
                 <SelectedPackage>pm-utils</SelectedPackage>
+                <SelectedPackage>polo</SelectedPackage>
                 <SelectedPackage>pulseaudio</SelectedPackage>
                 <SelectedPackage>rofi</SelectedPackage>
                 <SelectedPackage>sudo</SelectedPackage>
@@ -245,6 +246,7 @@
                 <Package>jasper</Package>
                 <Package>jbigkit</Package>
                 <Package>json-c</Package>
+                <Package>json-glib</Package>
                 <Package>kbd</Package>
                 <Package>kernel</Package>
                 <Package>keyutils</Package>
@@ -308,6 +310,7 @@
                 <Package>libftdi</Package>
                 <Package>libgcc</Package>
                 <Package>libgcrypt</Package>
+                <Package>libgee</Package>
                 <Package>libgomp</Package>
                 <Package>libgpg-error</Package>
                 <Package>libgudev</Package>
@@ -412,6 +415,7 @@
                 <Package>orc</Package>
                 <Package>os-prober</Package>
                 <Package>p11-kit</Package>
+                <Package>p7zip</Package>
                 <Package>pam</Package>
                 <Package>pango</Package>
                 <Package>pciutils</Package>
@@ -425,6 +429,7 @@
                 <Package>plyvel</Package>
                 <Package>pm-utils</Package>
                 <Package>polkit</Package>
+                <Package>polo</Package>
                 <Package>popt</Package>
                 <Package>ppp</Package>
                 <Package>procps</Package>
